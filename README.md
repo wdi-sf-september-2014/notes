@@ -8,7 +8,7 @@ This repository is for the September 2014 WDI cohort.
 ## Week 1
 ### Day 1
 #### M (AN): [command line](command_line/)
-#### A (AS): git
+#### A (AS): [git](git_intro/) 
 
 ### Day 2
 #### M (AN): objects and primitives
