@@ -1,5 +1,7 @@
 These notes taken from @rsofaer's [notes on command line](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md) from the Jan 2014 cohort.
 
+For the exercise, we will do the [command-line murder mystery](https://github.com/veltman/clmystery)
+
 # Living in the Command Line
 Web programmers have to live on the command line.  It gives us fast, reliable, and automatable control over computers.  Web servers usually don't have graphical interfaces, so we need to interact with them through command line and programmatic interfaces.  Once you become comfortable using the command line, staying on the keyboard will also help you keep an uninterrupted flow of work going without the disruption of shifting to the mouse.
 
