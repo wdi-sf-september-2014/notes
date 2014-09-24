@@ -3,7 +3,7 @@ September 2014 WDI
 
 This repository is for the September 2014 WDI cohort.
 
-## Schedule
+# Schedule
 
 ## Week 1
 ### Day 1
@@ -26,4 +26,9 @@ This repository is for the September 2014 WDI cohort.
 #### M (AN): introduction to algorithms
 #### A (AS): memory game
 
-
+## Week 2
+#### Day 1 (AN): TDD with mocha (npm) Lab: RPN calculator
+#### Day 2 (AS): Revisiting object creation: Prototypes and constructors 
+#### Day 3 (AN): Prototypical inheritance 
+#### Day 4 (AS/AN): Two-day project TBD 
+#### Day 5 (AS/AN): Two-day project TBD 
