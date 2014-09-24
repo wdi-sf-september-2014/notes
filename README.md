@@ -7,7 +7,7 @@ This repository is for the September 2014 WDI cohort.
 
 ## Week 1
 ### Day 1
-#### M (AN): command line
+#### M (AN): [command line](command_line/)
 #### A (AS): git
 
 ### Day 2
