@@ -160,7 +160,7 @@ for (var i = 0; i > 0; i++) {
 - Write a function that calculates and shows the value of one number to the power of another.
 - The function should take 2 arguments - one number as the base, one as the exponent.
 - An example could be `2^10` with the function looking something like `calculateExponent(2,10)`.
-- Submit a pull request to homework repo.
+- Submit a pull request to homework repo: https://github.com/wdi-sf-september-2014-hw/js_control_flow.
 
 ## Resources:
 * [Code School free course on the Developer Tools](https://www.codeschool.com/courses/discover-devtools)
