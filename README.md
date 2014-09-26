@@ -12,7 +12,7 @@ This repository is for the September 2014 WDI cohort.
 
 ### Day 2
 #### M (AN): objects and primitives
-#### A (AS): control flow
+#### A (AS): [Control Flow](js_control_flow/)
 
 ### Day 3
 #### M (AS): intro to functions
