@@ -4,12 +4,12 @@
 
 [Git](http://git-scm.com/book/en)
 
-**Goals**
+**Objectives**
 
-- Understand the purpose of version control systems
-- Learn how to manage files with git and github
-- Understand git branching  (We didn't get to this, that's OK for now)
-- Understand how to collaborate with others
+- Illustrate the purpose of version control systems
+- Demonstrate how to manage files with git and github
+- Apply git branching
+- Employ proper Git and GitHub collaboration techniques
 
 **What is version control, and why should you care?**
 
