@@ -15,7 +15,7 @@
 ## Objects everywhere, well, almost
 
 We say that in JS, almost everything is an object, with the only
-exceptions being `null` and `undefined`. More on those exceptions later.
+exceptions being primitives, `null` and `undefined`. Even the primitives are used as objects of sorts. "More on those exceptions later.
 
 ### What makes an object what it is?
 
@@ -128,7 +128,7 @@ A couple of things here, that are really important to understand:
 So if `log` is a function or **behavior** of the `Console` object, are there other functions and behaviors that the `Console` object **exposes**? Yes! Let's try this:
 
 ```
-for (prop in console) {
+for (var prop in console) {
   if (console[prop] instanceof Function) {
     console.log(prop);
   }
@@ -163,7 +163,7 @@ Let's try something else now:
 
 `true instanceof Object`
 
-The result is: `false`.
+The printed result is: `false`.
 
 First, what's `false`? Well, first it's a kind of **value** in JavaScript.
 If there's a `false`, there's a `true`. All they mean basically are `no` and `yes`, respectively. There's more nuance to those, but for now that's all we have to worry about.
@@ -172,12 +172,34 @@ Second what is `instanceof`? It's an **operator**. In the expression `true insta
 
 But, but, but, didn't we say that pretty much everything is an object?! #headdesk #facepalm
 
-#### Exercise: try these
+#### Exercise: check if primitives are objects too
+
 Let's try a couple of more things in your pair groups:
 
 * `false instanceof Object`
 * `"WDI" instanceof Object`
 * `123 instanceof Object`
+
+Then: `"WDI".toLowerCase()`
+
+And try this:
+
+```
+for (var prop in "WDI") {
+	console.log(prop);
+}
+```
+
+Then, try this:
+`1.toString()` and `(1).toString()`
+
+And finally, this:
+
+```
+for (var prop in 42) {
+	console.log(prop);
+}
+```
 
 #### Thus, we've discovered ***primitives***!
 
@@ -199,4 +221,4 @@ Try the following in your console, with your pair groups:
 * `(100).toString()`
 * `"2" + 2`
 
-Experiment with things not listed above, and see what happens.
+Experiment with expressions not listed above, that are similar to the ones above, and see what happens.
