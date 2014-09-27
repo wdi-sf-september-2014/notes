@@ -1,7 +1,5 @@
 These notes adapted from @rsofaer's [notes on command line](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md) from the Jan 2014 cohort.
 
-For the exercise, we will do the [command-line murder mystery](https://github.com/veltman/clmystery)
-
 # Objective: Living in the Command Line
 Web programmers have to live on the command line. 
 
@@ -160,6 +158,10 @@ Sometimes it's important to know how the shell finds the commands that you run. 
 `which ruby` gives `/Users/raphael/.rvm/rubies/ruby-2.0.0-p247/bin/ruby`
 
 The shell finds these commands by looking at the PATH variable in the shell.  `echo $PATH` will show you the contents of PATH.  It should be a list of directories separated by `:`.  When you run any command, the shell looks in the directories for files that match the name of the command you're trying to run, and executes the first one it finds.  Most of you should have a line changing PATH in your `~/.bash_profile` file, which is run every time you open a new terminal session (tab or window).
+
+## Afternoon lab: 
+
+For the afternoon lab, we will all do the [command-line murder mystery](https://github.com/veltman/clmystery) in pairs
 
 #### Further Reading
 Linux is almost the same as OSX, and this is a great manual about the Linux command line:
