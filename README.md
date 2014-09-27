@@ -15,7 +15,7 @@ This repository is for the September 2014 WDI cohort.
 #### A (AS): [Control Flow](js_control_flow/)
 
 ### Day 3
-#### M (AS): intro to functions
+#### M (AS): [Intro to Functions](js_intro_functions/)
 #### A (AN): grokking functions
 
 ### Day 4
