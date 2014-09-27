@@ -1,6 +1,4 @@
-These notes taken from @rsofaer's [notes on command line](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md) from the Jan 2014 cohort.
-
-For the exercise, we will do the [command-line murder mystery](https://github.com/veltman/clmystery)
+These notes adpated from @rsofaer's [notes on command line](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md) from the Jan 2014 cohort.
 
 # Objective: Living in the Command Line
 Web programmers have to live on the command line.  It gives us fast, reliable, and automatable control over computers.  Web servers usually don't have graphical interfaces, so we need to interact with them through command line and programmatic interfaces.  Once you become comfortable using the command line, staying on the keyboard will also help you keep an uninterrupted flow of work going without the disruption of shifting to the mouse.
@@ -12,7 +10,7 @@ For any command we discuss here, the command `man`, short for __manual__, will g
 The command line is my home.  I literally think of using the command line as walking around a building.
 
 #### Where am I?
-`/` is the entrance - the __root directory__ - but I usually start out in `/Users/raphael`, which is my room, my __home directory__.  My home directory can also be called `~`. 
+`/` is the entrance - the __root directory__ - but I usually start out in `/Users/alex`, which is my room, my __home directory__.  My home directory can also be called `~`. 
 
 The room I'm currently in is called the __working directory__.  When I open a new terminal, my home directory is the working directory.  Wherever we are, `pwd`, short for __print working directory__, will show us what directory we are in.
    
@@ -40,10 +38,10 @@ I can see everything, including hidden files and folders, with `ls -a` for List 
 I can look at everything in a more detailed list with `ls -l`.  List in a long format.  I've put in a header line so you can see what some of the columns are.  
 
     Permissions     Owner    Group    Size   Last Modified Filename
-    drwxr-xr-x   45 raphael  staff      1530 Nov 21 23:30  Applications
-    drwx------+  11 raphael  staff       374 Dec  4 09:09  Desktop
-    -rw-r--r--    1 raphael  staff      8872 Nov 13  2012  downloads.txt
-    -rw-r--r--    1 raphael  staff    191858 Nov 16 14:45  dump.rdb
+    drwxr-xr-x   45 alex  staff      1530 Nov 21 23:30  Applications
+    drwx------+  11 alex  staff       374 Dec  4 09:09  Desktop
+    -rw-r--r--    1 alex  staff      8872 Nov 13  2012  downloads.txt
+    -rw-r--r--    1 alex  staff    191858 Nov 16 14:45  dump.rdb
     lrwxr-xr-x    1 root     staff         4 May 10  2011  usr -> /usr
 
 Here's a tutorial on file permissions, if you're interested in unpacking that column: [http://en.flossmanuals.net/command-line/permissions/](http://en.flossmanuals.net/command-line/permissions/)
@@ -158,7 +156,7 @@ The fact that we interact with the computer by programming empowers us. Instead 
 
 Sometimes it's important to know how the shell finds the commands that you run.  The command `which [command-name]` will tell you the location of the file which will be run when you execute that command.  For example, `which rm` on my computer gives `/bin/rm`.
 
-`which ruby` gives `/Users/raphael/.rvm/rubies/ruby-2.0.0-p247/bin/ruby`
+`which ruby` gives `/Users/alex/.rvm/rubies/ruby-2.0.0-p247/bin/ruby`
 
 The shell finds these commands by looking at the PATH variable in the shell.  `echo $PATH` will show you the contents of PATH.  It should be a list of directories separated by `:`.  When you run any command, the shell looks in the directories for files that match the name of the command you're trying to run, and executes the first one it finds.  Most of you should have a line changing PATH in your `~/.bash_profile` file, which is run every time you open a new terminal session (tab or window).
 
