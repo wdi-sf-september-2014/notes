@@ -7,6 +7,8 @@
 
 * Play with some JS native objects and primitives, and their behaviors
 
+* Grok how primitives become objects, only if temporarily so
+
 * Learn or revisit some really important JS vocabulary
 
 * Make an object of our own
@@ -14,8 +16,7 @@
 
 ## Objects everywhere, well, almost
 
-We say that in JS, almost everything is an object, with the only
-exceptions being primitives, `null` and `undefined`. Even the primitives are used as objects of sorts. "More on those exceptions later.
+We say that in JS, everything is an object, with the exceptions being primitives (or value types), `null` and `undefined`. Even the primitives are used as objects, when they are asked to do stuff primitives cannot. More on those exceptions later.
 
 ### What makes an object what it is?
 
@@ -29,21 +30,32 @@ considered this question: "What defines an object in the real world?"
 Eventually you'd discover that objects boil down to: 
 
 ### Their properties 
-### Things you could do with them 
 
 Let's think about it in terms of concrete objects around us:
+
+* A dry erase marker:
+  * can be a certain color
+  * has a cap
+  * was made by "Expo"
+  * has a funky high-inducing smell
+
+* A chair:
+  * is made of certain materials
+  * has a back to lean on
+  * has legs
+
+### Things you could do with them 
+
+Let's think about what those concrete objects can do:
 
 * A dry erase marker:
   * can be used to write
   * may be thrown at students, if they aren't paying attention
   * can have a longer shelf life if its cap is put on it
-  * can be a certain color
 
 * A chair:
   * can be used as a step stool
-  * is made of certain materials
   * may be used for its purpose to sit on
-  * has a back to lean on
 
 So, if those are some objects around us... 
 
@@ -86,7 +98,7 @@ You've actually done a few very key things there, in just a few simple keystroke
 Console {memory: MemoryInfo, debug: function, error: function, info: function, log: function…}
 ```
 
-So what's that? Well, working backward, it's the printed version of the expression `console`, which we had asked our REPL to evaluate by pressing enter. 
+So what's that? Well, working backward, it's the printed result of evaluating the expression `console`, which we had asked the REPL to evaluate by pressing enter. 
 
 Now, the interesting thing there is that the expression evaluated to an `Object`, specifically the `Console` object! The `Console` is a kind of `Object`. More on what "a kind of" means next week.
 
@@ -108,9 +120,9 @@ We are looking at a few things there:
 * The **instance** of the Console object
 * A property called **memory** and that property's properties!
 
-So, we've now discovered some of the `Console` object's **properties**.
+So, we've now discovered one of the `Console` object's **properties**.
 
-Let's try to get one of these property's values.
+Let's try to get that property's values.
 
 Type in `console.memory` and press enter. What happens?
 
@@ -139,7 +151,7 @@ We've just listed all the functions, or, in other words the things we could do w
 
 ---
 
-> By knowing the console's properties and what can be done with it, we've learned all (almost all) about the console and what it is - we've practically **grokked** the console and understood its essence. It's not **too** different from describing a marker, a chair, a table, or a rocket engine. We're just using a different language to do it. 
+> By knowing the console's properties and what may be done with it, we've learned all (almost all) about the console and what it is - we've practically **grokked** the console and understood its essence. It's not **too** different from describing a marker, a chair, a table, or a rocket engine. We're just using a different language to do it. 
 > **- Alex Notov**
 
 ---
@@ -149,7 +161,7 @@ We've just listed all the functions, or, in other words the things we could do w
 
 ---
 
-#### Primitives
+#### Primitives (or value types)
 
 Now, let's type in something else into the REPL and press enter:
 
@@ -165,10 +177,19 @@ Let's try something else now:
 
 The printed result is: `false`.
 
-First, what's `false`? Well, first it's a kind of **value** in JavaScript.
-If there's a `false`, there's a `true`. All they mean basically are `no` and `yes`, respectively. There's more nuance to those, but for now that's all we have to worry about.
+First, what's `false`? Well, it's a kind of **value** in JavaScript.
 
-Second what is `instanceof`? It's an **operator**. In the expression `true instanceof Object`, `true` and `Object` are **operands**.
+Second, it's a `Boolean` value.
+
+There's also `true`. 
+
+All they mean basically are "no" (`false`) and "yes" (`true`), respectively. 
+
+There's more nuance to those, but for now that's all we have to worry about.
+
+Second what is `instanceof`? It's an **operator**. You'll play with more operators soon.
+
+In the expression `true instanceof Object`, `true` and `Object` are **operands**.
 
 But, but, but, didn't we say that pretty much everything is an object?! #headdesk #facepalm
 
@@ -193,6 +214,10 @@ for (var prop in "WDI") {
 Then, try this:
 `1.toString()` and `(1).toString()`
 
+**Question:** Why doesn't the former work and the latter does?
+
+**Answer:** the expression "1.toString()" is parsed by the REPL and expects a decimal, not a function after the decimal point.
+
 And finally, this:
 
 ```
@@ -205,7 +230,7 @@ for (var prop in 42) {
 
 This is a bit confusing. They are not actually Objects in the strictest sense of the word. The JavaScript programming language's core **data types** are:
 
-* Primitives: String, Number, Boolean
+* Primitives (value types): String, Number, Boolean
 * Objects (composite or "reference" types)
 * null and undefined
 
@@ -222,3 +247,16 @@ Try the following in your console, with your pair groups:
 * `"2" + 2`
 
 Experiment with expressions not listed above, that are similar to the ones above, and see what happens.
+
+#### Question you should ask yourself: if primitives, are not objects, how do they have functions defined on them?
+
+#### Answer: it turns out that JS actually temporarily wraps primitives in their Object counterparts to perform certain operations
+
+#### Second question: well, but in the REPL, aren't expressions stored in memory? What's the deal with memory anyway? 
+
+#### Let's talk about the garbage collector
+
+## Further reading
+
+### [The Secret Life of Primitives](http://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
+### [Values and Expressions](https://leanpub.com/javascript-allonge/read#leanpub-auto-prelude-values-and-expressions)
