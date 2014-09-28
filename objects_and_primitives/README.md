@@ -23,7 +23,7 @@
 
 > ... the most sophisticated machine the human mind can build has in it 
 > the limitations of the human mind.  
-> ***-Robert Heinlein, Time Enough for Love***
+> ***― Robert Heinlein, Time Enough for Love***
 
 Eventually you'd discover that objects boil down to: 
 
@@ -43,17 +43,14 @@ What about objects in your machine?
 
 ##### Its functions
 
----
 
 > By knowing the console's properties and what may be done with it, we've learned all (almost all) about the console and what it is - we've practically **grokked** the console and understood its essence. It's not **too** different from describing a marker, a chair, a table, or a rocket engine. We're just using a different language to do it. 
-> **- Alex Notov**
+> ***― Alex Notov***
 
----
 
 > “I am all that I grok.” 
-> **― Robert A. Heinlein, Stranger in a Strange Land**
+> ***― Robert A. Heinlein, Stranger in a Strange Land***
 
----
 
 #### Primitives (or value types)
 
