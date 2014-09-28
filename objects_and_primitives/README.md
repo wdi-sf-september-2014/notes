@@ -256,6 +256,19 @@ Experiment with expressions not listed above, that are similar to the ones above
 
 #### Let's talk about the garbage collector
 
+## Afternoon exercise/Homework
+
+### Read [Creating new objects (Using object initializers)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Using_object_initializers)
+### Read [Creating new objects (Using a constructor function)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Using_a_constructor_function)
+### Read [Creating new objects (Using the Object.create method)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Using_the_Object.create_method)
+
+### Make some JS objects describing everyday things in the three ways described in the above doc
+
+#### Extra credit
+
+##### Read [Creating new objects (Defining methods)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Defining_methods) 
+##### Define some methods on your objects that perform some operation on those objects 
+
 ## Further reading
 
 ### [The Secret Life of Primitives](http://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
