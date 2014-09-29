@@ -20,7 +20,7 @@ This repository is for the September 2014 WDI cohort.
 
 ### Day 4
 #### M (AN): HTML & CSS 
-#### A (AS): Dom Selection, Events, and Manipulation
+#### A (AS): [Dom Selection, Events, and Manipulation](dom_selection_events_manipulation/)
 
 ### Day 5
 #### M (AN): Introduction to Algorithms
