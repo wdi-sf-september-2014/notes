@@ -26,3 +26,59 @@ In order to make web pages more interactive, events are necessary to trigger act
 `document.querySelector("div#myDiv")`
 
 `document.querySelectorAll("div.myDivs")`
+
+##Attaching Events
+
+- Common Events:
+	- change
+	- click
+	- mouseover
+	- mouseout
+	- keydown
+	- keyup
+
+#####"Shortcut" Method
+
+```
+document.getElementById("myDiv").onchange = function() { };
+
+document.getElementById("myDiv").onclick = function() { };
+
+document.getElementById("myDiv").onmouseover = function() { };
+```
+
+#####addEventListener
+
+```
+document.getElementById("myDiv").addEventListener("click", function() {
+	//Your code here
+}
+```
+
+- Events can only be attached to specific elements. Therefore, when you return a collection such as the result of `document.querySelectorAll` you CANNOT simply do this:
+
+```
+document.querySelectorAll(".paragraph").addEventListener("click", function() {
+	alert("Click worked");
+}
+```
+
+- We would need to loop through each element returned and attach a click handler:
+
+```
+var paragraphs = document.querySelectorAll(".paragraph");
+
+for (var i = 0; i < paragraphs.length; i++) {
+	paragraphs[i].addEventListener("click", function() {
+		alert("Click worked");
+	}
+}
+```
+
+##Exercise 1
+
+- Clone the repo:
+- Create your own app.js file and link it to the document using the `script` tag.
+- Attach a click event to each paragraph, with an alert that pops up when clicked.
+- Attach the same click handler to the entire nav. Hint: Use `getElementsByTagName`.
+- Create a click handler for each footer link, and hijack the default action to make it show an alert rather than Google.com.
