@@ -77,7 +77,7 @@ for (var i = 0; i < paragraphs.length; i++) {
 
 ##Exercise 1
 
-- Clone the repo:
+- Clone [this repo](ex_1/).
 - Create your own app.js file and link it to the document using the `script` tag.
 - Attach a click event to each paragraph, with an alert that pops up when clicked.
 - Attach the same click handler to the entire nav. Hint: Use `getElementsByTagName`.
