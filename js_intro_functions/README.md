@@ -1,6 +1,94 @@
 #Intro to JS Functions
 
+###Learning Objectives
+
+- Illustrate proper function definitions.
+- Implement and apply function scope through a wide variety of definitions.
+- Demonstrate algorithm knowledge through practice exercises.
+
+###Defining a Function
+
+- There are three general ways to define a function.
+- Function naming:
+
+```
+function functionName() { }
+```
+
+- Function as a variable:
+
+```
+var functionName = function() { }
+```
+
+- Function in an object:
+
+```
+var object = {
+	myFunction: function() { }
+}
+```
+
+###Calling a Function
+
+- In order to invoke a function, we need to "call" it.
+- This is how we do it for each type:
+
+```
+functionName();
+
+object.myFunction();
+```
+
+###Function Arguments
+
+- Arguments allow you to pass data into functions.
+- You can think of them as "temporary" variables that can only be used in that function.
+- Arguments are passed in at the time of calling the function.
+
+#####The Setup:
+
+```
+function addTwo(number1, number2) {
+	return number1 + number2;
+}
+```
+
+#####The Call:
+
+```
+addTwo(1, 2);
+```
+
 ###Function Scope
+
+- Data within functions stay within functions.
+
+```
+function defineVar() {
+	var phrase = "Hello World!";
+}
+
+defineVar();
+
+console.log(phrase);
+```
+
+- The variable "phrase" cannot be passed outside of the function.
+
+###RETURN
+
+- In order to get data outside of a function, it must be returned.
+- This doesn't mean that your variables are now accessible; rather, resulting values are passed outside. Consider:
+
+```
+function addTwo(number1, number2) {
+	number1 + number2;
+}
+```
+
+- No data would result from this function unless it is "returned" out.
+- How would we rewrite this?
 
 ###JS Function Lab 1
 
