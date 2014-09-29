@@ -11,20 +11,20 @@ This repository is for the September 2014 WDI cohort.
 #### A (AS): [Git](git_intro/) 
 
 ### Day 2
-#### M (AN): objects and primitives
+#### M (AN): [Objects and Primitives](objects_and_primitives/)
 #### A (AS): [Control Flow](js_control_flow/)
 
 ### Day 3
 #### M (AS): [Intro to Functions](js_intro_functions/)
-#### A (AN): grokking functions
+#### A (AN): Grokking Functions
 
 ### Day 4
-#### M (AN): html & css
-#### A (AS): dom events
+#### M (AN): HTML & CSS 
+#### A (AS): Dom Events
 
 ### Day 5
-#### M (AN): introduction to algorithms
-#### A (AS): memory game
+#### M (AN): Introduction to Algorithms
+#### A (AS): Memory Game
 
 ## Week 2
 #### Day 1 (AN): TDD with mocha (npm) Lab: RPN calculator
