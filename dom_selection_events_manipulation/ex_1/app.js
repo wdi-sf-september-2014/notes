@@ -4,7 +4,7 @@ var paragraphs = document.querySelectorAll(".paragraph");
 
 for (var i = 0; i < paragraphs.length; i++) {
 	paragraphs[i].addEventListener("click", function() {
-		alert("Clicked");
+		alert("Clicked on a paragraph");
 	});
 }
 
