@@ -18,12 +18,12 @@
 * AND `&&`, OR `||`
 * `>`, `<`, `>=`, `<=`
 
-### Exercise #1: The Fortune Teller
+### Exercise #1: The Marathon Runner
 
-  Why pay a fortune teller when you can just program your fortune yourself?
-
-  - Store the following into variables: number of children, partner's name, geographic location, job title.
-  - Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+- Create a prompt that asks the user what their best marathon time was.
+- If their time was between 4 to 5 hours, alert the user that their time was average.
+- if the time was between 2 to 4 hours, alert the user that their time was excellent.
+- If the time was greater than 4 hours, alert the user that they need to speed up!
 
 ## Conditionals: always use Triple Equal "===" or "!=="
 * Check to see if two values are identical with the "===" strict equality.
@@ -116,7 +116,9 @@ for (var i = 0; i > 0; i++) {
 ```
 
 ###Exercise #3: 
-- Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
+- Write a for loop that will iterate from 0 to 20. 
+- For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
+- Do this using a `FOR` and a `WHILE` loop.
   
 ## Switch Case
   
@@ -143,6 +145,7 @@ for (var i = 0; i > 0; i++) {
 - Create a calculator in JavaScript.
 - Prompt the user to enter an operator and two operands.
 - Support the following operations: addition, subtraction, multiplication, and division. Output may appear in the console or in an alert.
+- Extra Credit: Do this in the node console instead. To receive user data you will need to use the "prompt" module: https://www.npmjs.org/package/prompt.
 
 ###Loop Problem Set
 
