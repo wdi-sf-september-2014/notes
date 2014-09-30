@@ -82,3 +82,35 @@ for (var i = 0; i < paragraphs.length; i++) {
 - Attach a click event to each paragraph, with an alert that pops up when clicked.
 - Attach the same click handler to the entire nav. Hint: Use `getElementsByTagName`.
 - Create a click handler for each footer link, and hijack the default action to make it show an alert rather than Google.com.
+
+##DOM Manipulation with JavaScript
+
+#####innerHTML Property
+
+`innerHTML` can be a "getter" and a "setter":
+
+`console.log(document.getElementById("footer").innerHTML);`
+
+`document.getElementById("footer").innerHTML = "This is my new HTML";`
+
+#####HTML Attributes
+
+Shortcut Method:
+
+`document.getElementById("footer").style.color = "red";`
+
+Any attribute getter and setter:
+
+`document.getElementById("footer").getAttribute("src");`
+
+`document.getElementById("footer").setAttribute("src", "someimage.png");`
+
+##Exercise 2
+
+- Give ids to each paragraph in the previous example.
+- Add buttons below each paragraph that when clicked:
+	- Change the text in that particular paragraph only.
+	- Change the background color of that paragraph.
+	- Change the text color.
+
+##Binding Events to Dynamic Elements
