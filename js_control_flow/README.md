@@ -18,12 +18,12 @@
 * AND `&&`, OR `||`
 * `>`, `<`, `>=`, `<=`
 
-### Exercise #1: The Fortune Teller
+## Exercise #1: The Marathon Runner
 
-  Why pay a fortune teller when you can just program your fortune yourself?
-
-  - Store the following into variables: number of children, partner's name, geographic location, job title.
-  - Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+- Create a prompt that asks the user what their best marathon time was.
+- If their time was between 4 to 5 hours, alert the user that their time was average.
+- if the time was between 2 to 4 hours, alert the user that their time was excellent.
+- If the time was greater than 4 hours, alert the user that they need to speed up!
 
 ## Conditionals: always use Triple Equal "===" or "!=="
 * Check to see if two values are identical with the "===" strict equality.
@@ -115,8 +115,10 @@ for (var i = 0; i > 0; i++) {
 }
 ```
 
-###Exercise #3: 
-- Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
+##Exercise #3: 
+- Write a for loop that will iterate from 0 to 20. 
+- For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
+- Do this using a `FOR` and a `WHILE` loop.
   
 ## Switch Case
   
@@ -138,13 +140,14 @@ for (var i = 0; i > 0; i++) {
         break;
     }
    ```
-### Basic JavaScript Calculator Lab
+## Basic JavaScript Calculator Lab
 
 - Create a calculator in JavaScript.
 - Prompt the user to enter an operator and two operands.
 - Support the following operations: addition, subtraction, multiplication, and division. Output may appear in the console or in an alert.
+- Extra Credit: Do this in the node console instead. To receive user data you will need to use the "prompt" module: https://www.npmjs.org/package/prompt.
 
-###Loop Problem Set
+##Loop Problem Set
 
 1. Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result.
 
@@ -154,7 +157,37 @@ for (var i = 0; i > 0; i++) {
 
 4. Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
-###Homework
+##Exercise #4: Looping Through Dynamic Data
+
+- Very often we pull data from sources such as APIs.
+- Data is usually in the form of JSON, or JavaScript Object Notation.
+- Loops and conditional statements are often used to do something with this returned data.
+- Let's see what it looks like:
+	- Open your browser to the IP address I provide.
+	- Take a look through the JSON data.
+- Let's create an AJAX request and loop through the data using `FOR` and `WHILE` loops.
+
+```
+var xmlhttp;
+
+if (window.XMLHttpRequest) {
+    xmlhttp = new XMLHttpRequest();
+} else {
+    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+
+xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      //Request was successful and you can do stuff here.
+      var ajaxData = xmlhttp.responseText;
+    }
+}
+
+xmlhttp.open("GET","[HTTP URL]",true);
+xmlhttp.send();
+```
+
+##Homework
 
 - Write a function that calculates and shows the value of one number to the power of another.
 - The function should take 2 arguments - one number as the base, one as the exponent.
