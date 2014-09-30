@@ -114,3 +114,12 @@ Any attribute getter and setter:
 	- Change the text color.
 
 ##Binding Events to Dynamic Elements
+
+- When elements come into the DOM dynamically, they didn't exist before, so you can't bind the event on page load.
+- As a result, you have to bind the event at the time of load or to the document itself.
+
+##Exercise 3
+
+- Review the files in the ex_2 folder.
+- Try to bind the click event to the paragraphs upon load of the AJAX.
+- Extra Credit: Bind the click event to the document on page load so that it works when the DOM is loaded dynamically. Hint: Bind the click event to the document itself and console log the `event` object that is passed down into the callback function. This will give you the hint.
