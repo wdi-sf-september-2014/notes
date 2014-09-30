@@ -6,19 +6,8 @@
 * Illustrate proper use of the `FOR` and `WHILE` loops.
 * Identify improper loops that can result in infinite looping.
 
-## Agenda 
-* Javascript Control Flow
-  * Conditionals (if/else)
-  * While loop
-  * For loop
-  * Switch case
-
-##Objectives
-* Be able to use various JS data types
-* Be able to control flow operators in JS
-* Be able to manipulate JS object literals
-
 # Getting Started
+
 ###Conditionals
 
 * Standard `if, else` blocks
@@ -155,12 +144,23 @@ for (var i = 0; i > 0; i++) {
 - Prompt the user to enter an operator and two operands.
 - Support the following operations: addition, subtraction, multiplication, and division. Output may appear in the console or in an alert.
 
+###Loop Problem Set
+
+1. Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result.
+
+2. Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
+
+3. Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18").
+
+4. Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
 ###Homework
 
 - Write a function that calculates and shows the value of one number to the power of another.
 - The function should take 2 arguments - one number as the base, one as the exponent.
 - An example could be `2^10` with the function looking something like `calculateExponent(2,10)`.
 - Submit a pull request to homework repo: https://github.com/wdi-sf-september-2014-hw/js_control_flow.
+- Finish any problems that you didn't finish in class.
 
 ## Resources:
 * [Code School free course on the Developer Tools](https://www.codeschool.com/courses/discover-devtools)
