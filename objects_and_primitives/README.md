@@ -273,3 +273,4 @@ Experiment with expressions not listed above, that are similar to the ones above
 
 ### [The Secret Life of Primitives](http://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
 ### [Values and Expressions](https://leanpub.com/javascript-allonge/read#leanpub-auto-prelude-values-and-expressions)
+### [Memory Management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
