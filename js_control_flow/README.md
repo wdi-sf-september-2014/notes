@@ -170,5 +170,5 @@ for (var i = 0; i > 0; i++) {
 ##Style Guide
 Check out some style guides for coding  
 
-- [http://nerds.airbnb.com/our-javascript-style-guide](Airbnb JS Guide)
-- [https://github.com/zillow/javascript](Zillow JS Guide) 
+- [Airbnb JS Guide](http://nerds.airbnb.com/our-javascript-style-guide)
+- [Zillow JS Guide](https://github.com/zillow/javascript)
