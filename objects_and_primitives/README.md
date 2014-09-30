@@ -131,3 +131,4 @@ Well, but in the REPL, aren't expressions stored in memory? What's the deal with
 
 ### [The Secret Life of Primitives](http://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
 ### [Values and Expressions](https://leanpub.com/javascript-allonge/read#leanpub-auto-prelude-values-and-expressions)
+### [Memory Management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
