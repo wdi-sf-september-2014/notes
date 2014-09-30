@@ -179,6 +179,7 @@ if (window.XMLHttpRequest) {
 xmlhttp.onreadystatechange=function() {
     if (xmlhttp.readyState==4 && xmlhttp.status==200) {
       //Request was successful and you can do stuff here.
+      var ajaxData = xmlhttp.responseText;
     }
 }
 
