@@ -2,6 +2,12 @@
 
 In order to make web pages more interactive, events are necessary to trigger actions on certain elements. A button click, mouse over, and tap are examples.
 
+##Learning Objectives
+
+- Apply proper principles to select DOM elements using JavaScript.
+- Demonstrate ability to bind events to single and multiple DOM elements.
+- Illustrate handling of events in static and dynamic documents.
+
 ##Selecting Elements
 
 - In order to bind events to DOM elements, you need to select the elements first.
