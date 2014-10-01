@@ -107,6 +107,10 @@ signatures and the same bodies are stored at different memory locations.
 
 Comparing two such functions with `===` will return false.
 
+## Homework
+
+### [Build a trivial test framework](https://github.com/wdi-sf-september-2014-hw/simple_test_framework_with_js_functions#super-bonus) 
+
 ## Further reading
 
 ### [Let's talk about var](https://leanpub.com/javascript-allonge/read#let)
