@@ -16,7 +16,7 @@ This repository is for the September 2014 WDI cohort.
 
 ### Day 3
 #### M (AS): [Intro to Functions](js_intro_functions/)
-#### A (AN): Grokking Functions
+#### A (AN): [Grokking Functions](grokking_functions/)
 
 ### Day 4
 #### M (AN): HTML & CSS 
