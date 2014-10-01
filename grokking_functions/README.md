@@ -109,7 +109,7 @@ Comparing two such functions with `===` will return false.
 
 ## Homework
 
-### [Build a trivial test framework](https://github.com/wdi-sf-september-2014-hw/simple_test_framework_with_js_functions#super-bonus) 
+### [Build a trivial test framework](https://github.com/wdi-sf-september-2014-hw/simple_test_framework_with_js_functions) 
 
 ## Further reading
 
