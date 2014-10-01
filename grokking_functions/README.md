@@ -7,7 +7,7 @@ Now, we'll explore functions in more depth.
 
 ## Core Objective: Grok functions.
 
-Know why this function returns `true` regardless of the argument passed
+Know why this IIFE returns `true` regardless of the argument passed
 to it:
 
 ```
