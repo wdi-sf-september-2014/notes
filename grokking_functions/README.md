@@ -84,6 +84,30 @@ greet("Alex");
 
 * A function "adopts" its parent environment
 
+```
+'use strict';
+
+// function declaration
+function greet() {
+    return "hello world";
+}
+
+// function expression
+var greet_me_in_the_morning = function () {
+    return "good morning";
+};
+
+// named function expression
+var greet_me_in_the_evening = function greet() {
+    return "good evening";
+};
+
+// immediately invoked function expression
+(function(when) {
+  return "good " + when;  
+})(when);
+```
+
 #### Let's talk about `var`
 
 The `var` keyword binds a variable to an environment
