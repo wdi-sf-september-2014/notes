@@ -114,5 +114,6 @@ Comparing two such functions with `===` will return false.
 ## Further reading
 
 ### [Let's talk about var](https://leanpub.com/javascript-allonge/read#let)
-### [As Little as Possible About Functions, But No Less](https://leanpub.com/javascript-allonge/read#functions)
+### [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
 ### [Named function expressions demystified](http://kangax.github.io/nfe/)
+### [As Little as Possible About Functions, But No Less](https://leanpub.com/javascript-allonge/read#functions)
