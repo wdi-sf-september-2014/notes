@@ -43,8 +43,6 @@ creative chefs that follow recipes precisely and without deviation.
 
 Tons-O-comparisons
 
-$$
 O(n^2/2)
-$$
 
 ### Insertion sort
