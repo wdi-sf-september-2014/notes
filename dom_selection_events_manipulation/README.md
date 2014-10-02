@@ -83,7 +83,7 @@ for (var i = 0; i < paragraphs.length; i++) {
 
 ##Exercise 1
 
-- Clone [this repo](ex_1/).
+- Review the fiels in the ex_1 folder.
 - Create your own app.js file and link it to the document using the `script` tag.
 - Attach a click event to each paragraph, with an alert that pops up when clicked.
 - Attach the same click handler to the entire nav. Hint: Use `getElementsByTagName`.
@@ -119,14 +119,22 @@ Any attribute getter and setter:
 	- Change the background color of that paragraph.
 	- Change the text color.
 
+##Exercise 3
+
+- Review the files in the ex_3 folder.
+- Loop through each `li` element and attach a click handler that sets the class attribute to "selected".
+- How do we know which item was clicked? This is set to the DOM element that received the event. Can you print it out to console?
+- Change the image to reflect what was clicked.
+- Add a "Reset" button that removes "selected" class from all list items.
+
 ##Binding Events to Dynamic Elements
 
 - When elements come into the DOM dynamically, they didn't exist before, so you can't bind the event on page load.
 - As a result, you have to bind the event at the time of load or to the document itself.
 
-##Exercise 3
+##Exercise 4
 
-- Review the files in the ex_2 folder.
+- Review the files in the ex_4 folder.
 - Try to bind the click event to the paragraphs upon load of the AJAX.
 - Extra Credit: Bind the click event to the document on page load so that it works when the DOM is loaded dynamically. Hint: Bind the click event to the document itself and console log the `event` object that is passed down into the callback function. This will give you the hint.
 
