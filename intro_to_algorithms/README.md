@@ -5,7 +5,7 @@ broad class of problems.
 
 Think about it like a recipe for making cake, where the chef follows
 very specific instructions and never deviates. Computers aren't very
-creative chefs that follow recipes precisely and without deviation.
+creative chefs, and follow recipes precisely and without deviation.
 
 ## Objectives:
 
