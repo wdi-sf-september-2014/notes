@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
+body {
+	background-color:#EBEBEB;
+}
+
+.red {
+	color:#900;
+	display:none;
+}
+
+.margin-top-20 {
+	margin-top:1.25em;
+}
+
+.margin-top-10 {
+	margin-top:1em;
+}
+
+.txt-center {
+	text-align:center;
+}
+
+.modbox {
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	padding:1em;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 1px 4px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 1px 4px 0px rgba(50, 50, 50, 0.75);
+}
+
+.form-wrapper {
+	margin-top:0.5em;
+	background-color:#FFF;
+	max-width:900px;
+}
+
+.large-title {
+	text-shadow: 2px 1px 1px rgba(150, 150, 150, 1);
+	font-size:3em;
+	text-align:center;
+}
+
+.card-wrapper {
+	background-color:#FFF96D;
+}
+
+.cool-title {
+	font-size:3em;
+	font-family:"Dancing Script", Arial;
+}
+

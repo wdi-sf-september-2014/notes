@@ -129,3 +129,8 @@ Any attribute getter and setter:
 - Review the files in the ex_2 folder.
 - Try to bind the click event to the paragraphs upon load of the AJAX.
 - Extra Credit: Bind the click event to the document on page load so that it works when the DOM is loaded dynamically. Hint: Bind the click event to the document itself and console log the `event` object that is passed down into the callback function. This will give you the hint.
+
+##Homework
+
+- Check out the folder titled "contact_form_exercise".
+- Follow the instructions in the readme.
