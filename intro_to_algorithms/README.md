@@ -14,6 +14,8 @@ creative chefs that follow recipes precisely and without deviation.
 #### Write some basic algorithms:
 
 * Search for an element in an array
+  * Search for an element in an array, but better, as long as it's
+    sorted
 * Sort an array with the most trivial algorithm
   * Sort an array with a slightly faster algorithm
 
