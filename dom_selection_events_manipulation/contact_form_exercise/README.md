@@ -18,4 +18,6 @@
 
 7. Submit all form fields via AJAX to the sample URL/form.
 
-8. Use your imagination! Do some cool things of your own :)
+8. Add some cool animations.
+
+9. Use your imagination! Do some cool things of your own :)
