@@ -19,7 +19,7 @@ This repository is for the September 2014 WDI cohort.
 #### A (AN): [Grokking Functions](grokking_functions/)
 
 ### Day 4
-#### M (AN): HTML & CSS 
+#### M (AN): [HTML & CSS](https://github.com/wdi-sf-fall/notes/tree/master/week_01_fundamentals/day_2_productivity_htmlcssbootstrap/dusk_html_css%20and%20bootstrap)
 #### A (AS): [Dom Selection, Events, and Manipulation](dom_selection_events_manipulation/)
 
 ### Day 5
