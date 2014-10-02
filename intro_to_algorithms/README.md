@@ -21,7 +21,7 @@ creative chefs that follow recipes precisely and without deviation.
 
 ## In groups: Revisit an array of numbers
 
-### Display all the elements of an array containing the elements: `2, 10, -1, 0, 200, -150`
+### Display all the elements of an array containing the elements: `2, 10, -1, 0, 200, -150, 1000, 1000, -2500, 35, 4`
 
 ## Let's find the index of `200` in the same array of elements
 
@@ -39,10 +39,32 @@ creative chefs that follow recipes precisely and without deviation.
 
 ## Sorting
 
+Let's sort the array.
+
 ### Bubble sort
 
-Tons-O-comparisons
-
-O(n^2/2)
+Worst case: O(n^2/2)
 
 ### Insertion sort
+
+A little better: O(n^2/4)
+
+## So now that it's sorted, let's find an element again, but quicker
+
+### Divide and conquer (Binary search)
+
+#### A refresher on logarithms: 
+
+Remember the exponent calculator function we had written for our first ever
+homework? :)
+
+The logarithm of a number is the exponent to which another value,
+the base, must be raised to produce that number. 
+
+![y = b^x <=> x = logb(y)](http://www.sciweavers.org/upload/Tex2Img_1412290201/render.png)
+
+So, for example:
+
+![128 = 2^{7} \Leftrightarrow 7 = log_{2}(128)](http://www.sciweavers.org/upload/Tex2Img_1412290291/render.png)
+
+O(log n), which actually is ![O(log_{2}n)](http://www.sciweavers.org/upload/Tex2Img_1412290577/render.png) or O(lg n), but base 2 is irrelevant in practice
