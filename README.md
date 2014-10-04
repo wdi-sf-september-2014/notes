@@ -49,7 +49,7 @@ This repository is for the September 2014 WDI cohort.
 #### Day 3 (AS): Bootstrap
 
 #### Day 4 (AN): 
-  ##### Morning: Data structures for project 
-  ##### Afternoon: Announce two-day project TBD - RPN calculator
+##### Morning: Data structures for project 
+##### Afternoon: Announce two-day project TBD - RPN calculator
 #### Day 5 (AS/AN): Two-day project TBD - do it!
 
