@@ -27,8 +27,29 @@ This repository is for the September 2014 WDI cohort.
 #### A (AS): Memory Game
 
 ## Week 2
-#### Day 1 (AN): TDD with mocha (npm) Lab: RPN calculator
-#### Day 2 (AS): Revisiting object creation: Prototypes and constructors 
-#### Day 3 (AN): Prototypical inheritance 
-#### Day 4 (AS/AN): Two-day project TBD 
-#### Day 5 (AS/AN): Two-day project TBD 
+#### Day 1 (AS): Arrays and Objects 
+##### Morning (part 1): Project review
+##### Morning (part 2): 
+###### Fundamental array methods: 
+  * `push()`
+  * `pop()` 
+  * `shift()` 
+  * `unshift()` 
+  * `forEach()`
+  * `reduce()`
+  * `map()`
+
+###### Objects:
+  * POJO - plain old javascript objects (key-value pairs)
+
+#### Day 2 (AN): 
+##### Morning: Revisiting object creation: Prototypes and constructors
+##### Afternoon: Prototypical inheritance
+
+#### Day 3 (AS): Bootstrap
+
+#### Day 4 (AN): 
+  ##### Morning: Data structures for project 
+  ##### Afternoon: Announce two-day project TBD - RPN calculator
+#### Day 5 (AS/AN): Two-day project TBD - do it!
+
