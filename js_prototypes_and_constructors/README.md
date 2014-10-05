@@ -34,5 +34,38 @@ user instanceof User //true
 - This isn't an ordinary property that would show up while console.log-ing.
 - The built-in constructor property is something you can't set manually.
 
+```
+var FuzzyBear = function FuzzyBear() { }
+user.constructor = FuzzyBear;
+
+user.constructor === FuzzyBear //true
+
+user instanceof FuzzyBear //false
+user instanceof User //true
+```
+
 - It sets up the object to delegate to `User.prototype`.
 - It calls `User()` in the context of the new object.
+- Functions automatically get a property called `prototype` that is just an empty object.
+
+When an object is constructed, it inherits all of the properties of its constructor's prototype:
+
+```
+User.prototype.firstName = "Arun";
+var user = new User;
+user.firstName //Arun
+```
+
+The `User` instance picked up the firstName from `User`'s prototype.
+
+####The object is set up to delegate any properties which haven’t been explicitly set up to its constructor’s prototype. That means that we can change the prototype later, and still see the changes in the instance.
+
+```
+User.prototype.firstName = "Alex";
+user.firstName //Alex
+```
+
+##Putting it All Together
+
+Given this tool, we can implement something like classes in JavaScript.
+
