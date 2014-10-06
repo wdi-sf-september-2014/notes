@@ -185,3 +185,21 @@ animal.displayType();
 
 ##Object Enumeration
 
+Iterating through objects can be achieved easily through a for-in loop. This will allow us to look through each key-value pair.
+
+```
+var myObject = {
+	firstName: "Arun",
+	lastName: "Sood",
+	sayName: function() {
+		alert(this.firstName + " " + this.lastName);
+	},
+	age: 27
+};
+
+for (var key in myObject) {
+	console.log(key);
+	console.log(myObject[key]);
+}
+```
+
