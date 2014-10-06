@@ -28,8 +28,8 @@ This repository is for the September 2014 WDI cohort.
 
 ## Week 2
 #### Day 1 (AS): [Arrays and Objects](arrays_and_objects/) 
-- Morning (part 1): Project Review
-- Morning (part 2): Arrays and Objects
+- Morning: Project Review
+- Afternoon: Arrays and Objects
 
 #### Day 2 (AN): 
 ##### Morning: Revisiting object creation: Prototypes and constructors
