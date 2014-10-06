@@ -73,3 +73,54 @@ var sum = myArray.reduce(function(previousValue, currentValue, index, array) {
 	return previousValue + currentValue;
 });
 ```
+
+##Array Exercises
+
+Do the array exercises from [this repo](https://github.com/litterbox-sf-fall/notes/blob/master/week_01_fundamentals/day_3_intro_to_javascript/dusk_control_flow_and_functions/primitives_lab.md).
+
+##Objects - Plain 'Ol JavaScript Objects (POJO)
+
+####Object Notation
+
+```
+var myObject = {
+	firstName: "Arun",
+	lastName: "Sood",
+	role: "Instructor"
+};
+```
+
+####Accessing Objects
+
+```
+myObject.firstName
+
+myObject.lastName
+
+myObject.role
+```
+
+####Objects can have multiple data types
+
+```
+var myObject = {
+	firstName: "Arun",
+	lastName: "Sood",
+	sayName: function() {
+		alert(this.firstName + " " + this.lastName);
+	},
+	age: 27
+};
+```
+
+####`this` keyword
+
+- `this` refers to the current object scope.
+- In the case of `myObject` above, the current scope is `myObject`.
+- I could have simply referred to it by `myObject`, but `this` is very DRY.
+- You will see this syntax very often in "MVC"-type JavaScript frameworks such as Backbone.js.
+
+##Object Exercises
+
+Do the object exercises from [this repo](https://github.com/litterbox-sf-fall/notes/blob/master/week_01_fundamentals/day_3_intro_to_javascript/dusk_control_flow_and_functions/primitives_lab.md).
+
