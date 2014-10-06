@@ -48,6 +48,20 @@ myArray.unshift("Peach");
 //Array is now ["Peach", "Banana", "Orange", "Grape"];
 ```
 
+###.forEach()
+
+The `.forEach` method executes a provided function once per array element.
+
+Let's say we want to display the result of adding 2 to each index of the below array:
+
+```
+var myArray = [1, 2, 3, 4];
+
+myArray.forEach(function(element, index, array) {
+	console.log(element + 2);
+});
+```
+
 ###.map()
 
 Array mapping allows you to create a new array from running some provided function on each index of the given array.
@@ -123,4 +137,51 @@ var myObject = {
 ##Object Exercises
 
 Do the object exercises from [this repo](https://github.com/litterbox-sf-fall/notes/blob/master/week_01_fundamentals/day_3_intro_to_javascript/dusk_control_flow_and_functions/primitives_lab.md).
+
+##Object Initialization
+
+- `var myObject = {};` is basically the equivalent of var `myObject = new Object();`
+- What happened here? We created a new instance of an object.
+
+####Functions are objects too...
+
+```
+function Car(make, model, year) {
+	this.make = make;
+	this.model = model;
+	this.year = year;
+}
+
+var myCar = new Car("Honda", "Civic", 2004);
+
+console.log(myCar.make);
+console.log(myCar.model);
+console.log(myCar.year);
+```
+
+- What we've done is basically create a generic way to spit out objects containing the make, model, and year properties of any given car.
+- This is very similar to the MODEL part of the MVC pattern of coding you will see later in the course.
+
+##Object.create() Method
+
+So we've seen how to set up objects, but what about setting up an object from another object?
+
+This is where we can use the `Object.create()` method.
+
+```
+var Animal = {
+	type: "Invertebrate",
+	displayType: function() {
+		console.log(this.type);
+	}
+};
+
+var animal = Object.create(Animal);
+
+animal.displayType();
+```
+
+- This new variable becomes an object that can be manipulated.
+
+##Object Enumeration
 
