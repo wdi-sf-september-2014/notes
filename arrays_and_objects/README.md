@@ -253,3 +253,6 @@ xmlhttp.open("GET","[HTTP URL]",true);
 xmlhttp.send();
 ```
 
+##Homework
+
+Build the game of TicTacToe! You can find the instructions [here](https://github.com/wdi-sf-september-2014-hw/tictactoe_game).
