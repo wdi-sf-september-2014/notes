@@ -23,8 +23,8 @@ This repository is for the September 2014 WDI cohort.
 #### A (AS): [Dom Selection, Events, and Manipulation](dom_selection_events_manipulation/)
 
 ### Day 5
-#### M (AN): Introduction to Algorithms
-#### A (AS): Memory Game
+#### M (AN): [Introduction to Algorithms](/intro_to_algorithms)
+#### A (AS): [Memory Game](https://github.com/wdi-sf-september-2014-hw/memory_game)
 
 ## Week 2
 #### Day 1 (AS): Arrays and Objects 
