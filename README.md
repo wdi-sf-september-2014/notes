@@ -27,20 +27,9 @@ This repository is for the September 2014 WDI cohort.
 #### A (AS): [Memory Game](https://github.com/wdi-sf-september-2014-hw/memory_game)
 
 ## Week 2
-#### Day 1 (AS): Arrays and Objects 
-##### Morning (part 1): Project review
-##### Morning (part 2): 
-###### Fundamental array methods: 
-  * `push()`
-  * `pop()` 
-  * `shift()` 
-  * `unshift()` 
-  * `forEach()`
-  * `reduce()`
-  * `map()`
-
-###### Objects:
-  * POJO - plain old javascript objects (key-value pairs)
+#### Day 1 (AS): [Arrays and Objects](arrays_and_objects/) 
+- Morning (part 1): Project Review
+- Morning (part 2): Arrays and Objects
 
 #### Day 2 (AN): 
 ##### Morning: Revisiting object creation: Prototypes and constructors
