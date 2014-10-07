@@ -43,13 +43,16 @@ This repository is for the September 2014 WDI cohort.
   * POJO - plain old javascript objects (key-value pairs)
 
 #### Day 2 (AN): 
-##### Morning: Revisiting object creation: Prototypes and constructors
-##### Afternoon: Prototypical inheritance
+##### Morning: [Revisiting object creation: Encapsulation, Objects, Constructors](objects_and_prototypical_inheritance/)
+##### Afternoon: [Lab and homework](https://github.com/wdi-sf-september-2014-hw/drag_race#day-1)
 
 #### Day 3 (AS): Bootstrap
 
 #### Day 4 (AN): 
+##### Morning: [A deeper dive into objects: Prototypes, Prototypal Inheritance, Patterns](objects_and_prototypical_inheritance/)
+##### Afternoon: [Lab and homework](https://github.com/wdi-sf-september-2014-hw/drag_race#day-2-in-addition)
+
+#### Day 5 (AS/AN): Weekend project: RPN Calculator or Apartment Lab 
 ##### Morning: Data structures for project 
-##### Afternoon: Announce two-day project TBD - RPN calculator
-#### Day 5 (AS/AN): Two-day project TBD - do it!
+##### Afternoon: Announce two-day project - we will pick shortly 
 
