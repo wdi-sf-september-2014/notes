@@ -32,13 +32,13 @@ This repository is for the September 2014 WDI cohort.
 - Afternoon: Arrays and Objects
 
 #### Day 2 (AN): 
-##### Morning: [Revisiting object creation: Encapsulation, Objects, Constructors](objects_and_prototypal_inheritance/)
+##### Morning: [Revisiting object creation: Encapsulation, Objects, Constructors](objects_and_prototypal_inheritance/#day-1-tuesday)
 ##### Afternoon: [Lab and homework](https://github.com/wdi-sf-september-2014-hw/drag_race#day-1)
-
+#day-2-thursday
 #### Day 3 (AS): Bootstrap
 
 #### Day 4 (AN): 
-##### Morning: [A deeper dive into objects: Prototypes, Prototypal Inheritance, Patterns](objects_and_prototypal_inheritance/)
+##### Morning: [A deeper dive into objects: Prototypes, Prototypal Inheritance, Patterns](objects_and_prototypal_inheritance/#day-2-thursday)
 ##### Afternoon: [Lab and homework](https://github.com/wdi-sf-september-2014-hw/drag_race#day-2-in-addition)
 
 #### Day 5 (AS/AN): Weekend project: RPN Calculator or Apartment Lab 
