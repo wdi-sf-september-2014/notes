@@ -34,7 +34,7 @@ This repository is for the September 2014 WDI cohort.
 #### Day 2 (AN): 
 ##### Morning: [Revisiting object creation: Encapsulation, Objects, Constructors](objects_and_prototypal_inheritance/#day-1-tuesday)
 ##### Afternoon: [Lab and homework](https://github.com/wdi-sf-september-2014-hw/drag_race#day-1)
-#day-2-thursday
+
 #### Day 3 (AS): Bootstrap
 
 #### Day 4 (AN): 
