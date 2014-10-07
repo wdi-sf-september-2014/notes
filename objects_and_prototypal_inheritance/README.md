@@ -1,4 +1,4 @@
-# Objects and Prototypical Inheritance
+# Objects and Prototypal Inheritance
 
 ## Objectives 
 
