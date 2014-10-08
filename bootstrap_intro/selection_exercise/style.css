@@ -1,1 +1,25 @@
 /*Your Code Here*/
+
+#selected-plays > li > ul > li > ul > li {
+	color:red;
+}
+
+table td:nth-child(3) {
+	background-color:#DDD;
+}
+
+table:first-of-type tr:nth-child(3) {
+	background-color:#DDD;
+}
+
+a[href$=".pdf"] {
+	font-size:2em;
+}
+
+#selected-plays > li {
+	color:blue;
+}
+
+#selected-plays > li > ul > li {
+	color:black;
+}
