@@ -41,7 +41,7 @@ This repository is for the September 2014 WDI cohort.
 ##### Morning: [A deeper dive into objects: Prototypes, Prototypal Inheritance, Patterns](objects_and_prototypal_inheritance/#day-2-thursday)
 ##### Afternoon: [Lab and homework](https://github.com/wdi-sf-september-2014-hw/drag_race#day-2-in-addition)
 
-#### Day 5 (AS/AN): Introduction To Testing
+#### Day 5 (AS/AN): [Introduction To Testing](more_prototypes_and_chai/)
 ##### Morning: More prototypes and Chai testing
 ##### Afternoon: Announce weekend project - apartment rental app
 
