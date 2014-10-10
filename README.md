@@ -45,3 +45,12 @@ This repository is for the September 2014 WDI cohort.
 ##### Morning: More prototypes and Chai testing
 ##### Afternoon: Announce weekend project - apartment rental app
 
+##Week 3
+
+####Day 1 (AN): Intro to Node and Express
+
+####Day 2 (AS): APIs and CRUD
+
+####Day 3 (AN): SQL
+
+####Day 4 (AS): Database Models and Additional SQL
