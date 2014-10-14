@@ -86,6 +86,6 @@ the browser:
 `var pathname=url.parse(req.url).pathname;`
 
 Then, using `pathname`, figure out a way to serve different responses
-using the pathname as the 
+using the pathname as the way to determine what to serve back
 
 ##### Question: What are some problems with this approach?
