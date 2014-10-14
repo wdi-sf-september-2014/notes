@@ -75,6 +75,16 @@ views/index.ejs
 - ExpressJS maps over simple commands (Express syntax) to a slightly more complex Node.js format.
 - Allows you to write code in a readable, understandable fashion that maps over to standard Node.js commands.
 
+##REST (Representational State Transfer)
+
+- HTTP verbs include POST, GET, PUT, DELETE.
+- These by convention map over directly to CRUD operations on the server side.
+	- POST -> Create
+	- GET -> Read
+	- PUT -> Update
+	- DELETE -> Delete
+- Essentially, these verbs "represent" the operations that occur server-side.
+
 ##Making Calls to Web Services
 
 - On the client side we have AJAX, on the server side we have cURL.
@@ -97,4 +107,33 @@ request('http://www.google.com', function (error, response, body) {
 
 - Create a new Node app using `npm init`.
 - Set up EJS as your templating engine.
-- Make a request out to facebook.com and place the response body inside a template.
+- Make a request out to facebook.com and place the response body inside a template. Hint: Think about which template syntax to use for this.
+
+##Using JSON
+
+- Normally if you use a real web service it will return data to you in JSON format.
+- Node however interprets this JSON as a string, so you need to parse it into real JSON.
+
+####JSON.parse()
+
+```
+request('http://www.google.com', function (error, response, body) {
+	if (!error && response.statusCode == 200) {
+		var data = JSON.parse(body);
+	}
+});
+```
+
+##JSON API Exercise
+
+For this exercise we will be using the User API:
+
+`http://daretodiscover.net/user`
+
+- Create a new application using `npm init`.
+- Use the request module to make a GET request to the above url.
+- Create 3 different routes using Express - first, last, all.
+	- First will display a list of all users' first names.
+	- Last will display a list of all users' last names.
+	- All will display a list of all users' data in table form.
+- Bonus: Make it pretty using Bootstrap :)
