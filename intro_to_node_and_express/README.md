@@ -2,6 +2,8 @@
 
 ## Objectives
 
+### [Weekend Lab](./weekend_lab_preview.md)
+
 ### [Morning](./morning.md)
 
 * Understand how Node.js is a purely event-driven application server
