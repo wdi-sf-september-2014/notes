@@ -61,7 +61,7 @@ This repository is for the September 2014 WDI cohort.
 
 ##Week 3
 
-####Day 1 (AN): Intro to Node and Express
+####Day 1 (AN): [Intro to Node and Express](./intro_to_node_and_express)
 
 ####Day 2 (AS): APIs and CRUD
 
