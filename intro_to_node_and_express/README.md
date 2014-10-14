@@ -2,7 +2,7 @@
 
 ## Objectives
 
-### [Weekend Lab](./weekend_lab_preview.md)
+### [Weekend Lab Preview](./weekend_lab_preview.md)
 
 ### [Morning](./morning.md)
 
