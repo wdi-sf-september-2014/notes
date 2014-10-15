@@ -1,0 +1,11 @@
+<form method="post" action="/edit/<%= oneUser.id %>?_method=put">
+	<input type="text" name="firstname" placeholder="First Name" value="<%= oneUser.firstname %>" />
+	<input type="text" name="lastname" placeholder="Last Name" value="<%= oneUser.lastname %>" />
+	<input type="text" name="age" placeholder="Age" value="<%= oneUser.age %>" />
+	<input type="text" name="username" placeholder="Username" value="<%= oneUser.username %>" />
+	<button type="submit">Edit User</button>
+</form>
+
+<form method="post" action="/delete/<%= oneUser.id %>?_method=delete">
+	<button type="submit">Delete User</button>
+</form>
