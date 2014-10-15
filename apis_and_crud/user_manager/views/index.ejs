@@ -1,0 +1,6 @@
+<% for (var i = 0; i < data.length; i++) { %>
+	<div>
+		<%= data[i].firstname %> <%= data[i].lastname %>
+		<a href="/user/<%= data[i].id %>">Edit User</a>
+	</div>
+<% } %>
