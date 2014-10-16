@@ -15,3 +15,5 @@
 * Use SQL to Create a table
 * Use SQL to insert, select, update, and delete data
 * Begin learning about joins and more advanced queries.
+
+### [Lab/Homework](https://github.com/wdi-sf-july/apartment_lab_sql/blob/master/apartment_lab.md)
