@@ -1,0 +1,17 @@
+# Intro to Databases and SQL
+
+## Objectives
+
+### [Morning](./morning.md)
+* Understand the purpose of database servers
+* Learn basic SQL constructs for retrieving data
+* Understand what Primary Keys are
+
+### [Afternoon](./afternoon.md)
+* Install postgres (server / client) onto your laptop
+* Know how to start postgres
+* Know how to start psql client
+* Use SQL to Create a database
+* Use SQL to Create a table
+* Use SQL to insert, select, update, and delete data
+* Begin learning about joins and more advanced queries.
