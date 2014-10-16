@@ -17,3 +17,7 @@
 * Begin learning about joins and more advanced queries.
 
 ### [Lab/Homework](https://github.com/wdi-sf-july/apartment_lab_sql/blob/master/apartment_lab.md)
+
+### [Additional Reading]
+
+[SQL tutorial from the creators of postgresql](http://www.postgresql.org/docs/9.3/static/tutorial-sql.html)
