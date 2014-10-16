@@ -21,5 +21,6 @@
 ### Additional Reading
 
 [Postgres Guide](http://postgresguide.com/)
+[Postgres the Sext Parts](http://postgresguide.com/sexy/index.html)
 [SQL tutorial from the creators of postgresql](http://www.postgresql.org/docs/9.3/static/tutorial-sql.html)
 
