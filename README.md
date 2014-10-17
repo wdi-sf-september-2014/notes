@@ -67,4 +67,4 @@ This repository is for the September 2014 WDI cohort.
 
 ####Day 3 (AN): [Intro to Databases and SQL](intro_to_sql/)
 
-####Day 4 (AS): Database Models and Additional SQL
+####Day 4 (AS): [Database Models and Additional SQL](more_sql_and_db_modeling/)
