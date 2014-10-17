@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apartment Manager</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+	<h1>Apartment Management System</h1>
+	<hr />
+
+	<div class="margin-top-20">
+		<a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#add-tenant">Add Tenant</a>
+	</div>
+
+	<table class="table table-striped margin-top-20">
+		<thead>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Property Rented</th>
+			<th>Action</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Arun</td>
+				<td>Sood</td>
+				<td>219 East Crystal Cove Terrace</td>
+				<td>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#maint">Maintenance Requests</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="maint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">Maintenance Requests</h4>
+			</div>
+			<div class="modal-body">
+				<table class="table">
+					<tr>
+						<td>Fix water heater</td>
+						<td><a href="#" class="btn btn-danger btn-xs">Delete</a></td>
+					</tr>
+					<tr>
+						<td>Fix water heater</td>
+						<td><a href="#" class="btn btn-danger btn-xs">Delete</a></td>
+					</tr>
+					<tr>
+						<td><input type="text" class="form-control" placeholder="Add Maintenance Request" /></td>
+						<td><a href="#" class="btn btn-success">Add Request</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--/Modal-->
+
+<!-- Modal -->
+<div class="modal fade" id="add-tenant" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">Add a Tenant</h4>
+			</div>
+			<div class="modal-body">
+				<h4>First Name</h4>
+				<div class="margin-top-20">
+					<input id="tenant-first" class="form-control" placeholder="Tenant First Name" />
+				</div>
+				<h4 class="margin-top-20">Last Name</h4>
+				<div class="margin-top-20">
+					<input id="tenant-last" class="form-control" placeholder="Tenant Last Name" />
+				</div>
+				<h4 class="margin-top-20">Property Rented</h4>
+				<div class="margin-top-20">
+					<select class="form-control" id="tenant-prop-select">
+						<option value="1">219 East Crystal Cove Terrace</option>
+						<option value="2">219 East Crystal Cove Terrace</option>
+						<option value="3">219 East Crystal Cove Terrace</option>
+					</select>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button id="save-tenant" type="button" class="btn btn-primary">Save Tenant</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--/Modal-->
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
