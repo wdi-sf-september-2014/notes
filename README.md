@@ -75,7 +75,7 @@ This repository is for the September 2014 WDI cohort.
 
 ####Day 2 (): [Advanced Sequelize](advanced_sequelize/)
 
-####Day 3 (): [Intro to Authentication with Passport - username/password auth](intro_to_passport/)
+####Day 3 (): [Intro to Authentication with Passport](intro_to_passport/)
 
 ####Day 4 (): [Test the Models](tdd/)
 
