@@ -65,6 +65,6 @@ This repository is for the September 2014 WDI cohort.
 
 ####Day 2 (AS): [APIs and CRUD](apis_and_crud/)
 
-####Day 3 (AN): SQL
+####Day 3 (AN): [Intro to Databases and SQL](intro_to_sql/)
 
 ####Day 4 (AS): Database Models and Additional SQL
