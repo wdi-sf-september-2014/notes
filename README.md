@@ -68,3 +68,23 @@ This repository is for the September 2014 WDI cohort.
 ####Day 3 (AN): [Intro to Databases and SQL](intro_to_sql/)
 
 ####Day 4 (AS): Database Models and Additional SQL
+
+##Week 4
+
+####Day 1 (): 
+
+##### [Algorithms, redux](algorithms_redux/)
+##### [Sequelize - Intro to a professional-grade ORM](intro_to_sequelize/)
+
+####Day 2 (): 
+
+##### [Advanced Sequelize](advanced_sequelize/)
+##### [Intro to Authentication with Passport - username/password auth](intro_to_passport/)
+
+####Day 3 ():
+
+##### [Intro to OAuth](intro_to_oauth/)
+
+####Day 4 (): [Test all the things](tdd/)
+
+####Day 5 (): [Project week introduction](project_week_intro/)
