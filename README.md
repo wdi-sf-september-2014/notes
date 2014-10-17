@@ -71,20 +71,12 @@ This repository is for the September 2014 WDI cohort.
 
 ##Week 4
 
-####Day 1 (): 
+####Day 1 (): [Sequelize - Intro to a professional-grade ORM](intro_to_sequelize/)
 
-##### [Algorithms, redux](algorithms_redux/)
-##### [Sequelize - Intro to a professional-grade ORM](intro_to_sequelize/)
+####Day 2 (): [Advanced Sequelize](advanced_sequelize/)
 
-####Day 2 (): 
+####Day 3 (): [Intro to Authentication with Passport - username/password auth](intro_to_passport/)
 
-##### [Advanced Sequelize](advanced_sequelize/)
-##### [Intro to Authentication with Passport - username/password auth](intro_to_passport/)
-
-####Day 3 ():
-
-##### [Intro to OAuth](intro_to_oauth/)
-
-####Day 4 (): [Test all the things](tdd/)
+####Day 4 (): [Test the Models](tdd/)
 
 ####Day 5 (): [Project week introduction](project_week_intro/)
