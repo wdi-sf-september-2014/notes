@@ -1,0 +1,10 @@
+<form method="post" action="/edit/<%= user_info.id %>?_method=put">
+	<input type="text" name="firstname" placeholder="First Name" value="<%= user_info.first_name %>" />
+	<input type="text" name="lastname" placeholder="Last Name" value="<%= user_info.last_name %>" />
+	<input type="text" name="age" placeholder="Age" value="<%= user_info.age %>" />
+	<button type="submit">Update User</button>
+</form>
+
+<form method="post" action="/delete/<%= user_info.id %>?_method=delete">
+	<button type="submit">Delete User</button>
+</form>

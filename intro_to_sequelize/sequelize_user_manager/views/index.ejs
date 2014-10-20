@@ -1,0 +1,8 @@
+<% for (var i = 0; i < all_users.length; i++) { %>
+	<div>
+		<%= all_users[i].first_name %> 
+		<%= all_users[i].last_name %> 
+		<%= all_users[i].age %> 
+		<a href="/edit/<%= all_users[i].id %>">Edit User</a>
+	</div>
+<% } %>
