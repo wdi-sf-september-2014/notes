@@ -1,0 +1,19 @@
+{
+  "name": "sequelize_user_manager",
+  "version": "1.0.0",
+  "description": "An app to test sequelize",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arun Sood",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "ejs": "^1.0.0",
+    "express": "^4.9.8",
+    "method-override": "^2.3.0",
+    "pg": "^3.6.1",
+    "sequelize": "^2.0.0-rc2"
+  }
+}
