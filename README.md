@@ -79,4 +79,4 @@ This repository is for the September 2014 WDI cohort.
 
 ####Day 4 (AN): [Test the Models](tdd/)
 
-####Day 5 (AS/AN): [Project week introduction](project_week_intro/)
+####Day 5 (AS/AN): [Project week begins](project_1.md)
