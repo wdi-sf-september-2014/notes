@@ -71,7 +71,7 @@ This repository is for the September 2014 WDI cohort.
 
 ##Week 4
 
-####Day 1 (AS): [Sequelize - Intro to a professional-grade ORM](intro_to_sequelize/)
+####Day 1 (AS): [Sequelize - Intro to a professional-grade ORM](https://github.com/wdi-sf-fall/notes/tree/master/week_04_production_ready_applications/day_01_sequelize) 
 
 ####Day 2 (AN): [Advanced Sequelize](advanced_sequelize/)
 
