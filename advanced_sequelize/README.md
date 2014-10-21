@@ -10,10 +10,7 @@
 
 ### Validations
 
-*G*arbage
-*I*n
-*G*arbage
-*O*ut
+__G__arbage __I__n __G__arbage __O__ut
 
 If you let users enter data willy nilly, you'll get a bunch of garbage.
 
