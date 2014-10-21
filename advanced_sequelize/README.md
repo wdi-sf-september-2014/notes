@@ -118,6 +118,7 @@ The solution is to validate your data!
       });
     });
   });
+```
 
 ```
   // ... in index.ejs
