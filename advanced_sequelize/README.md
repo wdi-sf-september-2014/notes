@@ -50,6 +50,7 @@ The solution is to validate your data!
 #### Let's display those messages
 
 `npm i --save cookie-session`
+
 `npm i --save connect-flash`
 
 #### Your turn: 
@@ -87,7 +88,9 @@ The solution is to validate your data!
       return [this.firstname, this.lastname].join(' ');
     }
   }
+```
 
+```
   // ... in app.js
   app.get("/managers", function(req, res) {
     models.Manager.findAll({
@@ -116,7 +119,7 @@ The solution is to validate your data!
     });
   });
 
-
+```
   // ... in index.ejs
   <% if (m.Tenants) { %>
   <tr cols="5">
