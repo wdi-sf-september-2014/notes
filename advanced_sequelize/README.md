@@ -6,7 +6,7 @@
 
 * Validations
 * Associations
-* Cleaner callbacks with promises
+* Cleaner callbacks with promises (maybe, but a bit unlikely)
 
 ### Validations
 
@@ -26,7 +26,7 @@ The solution is to validate your data!
 * Alpha validation on manager firstname 
 
 ```
-  // ... in manager.js
+  // ... in models/manager.js
   firstname: {
     type: DataTypes.STRING,
     validate: {
@@ -39,7 +39,7 @@ The solution is to validate your data!
 
 * Alpha validation on manager lastname
 ```
-  // ... in manager.js
+  // ... in models/manager.js
   lastname: {
     type: DataTypes.STRING,
     validate: {
@@ -68,4 +68,74 @@ The solution is to validate your data!
 
 ### Associations
 
+* A manager has many tenants!
+```
+  // ... in models/manager.js
+  classMethods: {
+    associate: function(models) {
+      // associations can be defined here
+      Manager.hasMany(models.Tenant, { foreignKey: 'manager_id' });
+    }
+  }
 
+  // ... in models/tenant.js
+  classMethods: {
+    associate: function(models) {
+      // associations can be defined here
+      Tenant.belongsTo(models.Manager, { foreignKey: 'manager_id'});
+    }
+  },
+  instanceMethods: {
+    getFullName: function() {
+      return [this.firstname, this.lastname].join(' ');
+    }
+  }
+
+  // ... in app.js
+  app.get("/managers", function(req, res) {
+    models.Manager.findAll({
+      include: [ models.Tenant ]
+    }).then(function(managers) { 
+      res.render('index', { 
+        managers: managers,
+        messages: req.flash('info')
+      });
+    });
+  });
+
+  app.post("/managers/:id/tenants", function(req, res) {
+    var managerId = parseInt(req.params.id, 10),
+        path = ['/managers/', managerId, '/tenants'].join('');
+    models.Manager.find(managerId).then(function(manager){
+      manager.addTenant(models.Tenant.build({
+        firstname: req.body.firstname,
+        lastname: req.body.lastname
+      })).then(function(manager) {
+        res.redirect(path);
+      }, function(error) {
+        req.flash('info', error);
+        res.redirect(path);
+      });
+    });
+  });
+
+
+  // ... in index.ejs
+  <% if (m.Tenants) { %>
+  <tr cols="5">
+    <td>
+      <h4>Tenants</h4>
+      <table class="table table-striped margin-top-20">
+        <thead>
+          <th>Tenant name</th>
+        </thead>
+        <tbody>
+          <% m.Tenants.forEach(function(t) { %>
+          <tr><td><%= t.getFullName() %></td></tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+  <% } %>
+```
