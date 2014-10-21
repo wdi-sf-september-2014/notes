@@ -6,6 +6,7 @@
 
 * Validations
 * Associations
+* Talk about REESTful routing
 * Cleaner callbacks with promises (maybe, but a bit unlikely)
 
 ### Validations
@@ -140,3 +141,16 @@ The solution is to validate your data!
   </tr>
   <% } %>
 ```
+
+### Exercise: 
+
+* Build the maintenance request functionality, such that:
+* Maintenance requests may be viewed for a tenant or manager at the following URIs:
+  `/tenants/:id/maintenance_requests`
+  `/managers/:id/maintenance_requests`
+
+* Create a MaintenanceRequest model and migration
+  * A maintenance request has one Tenant
+  * A maintenance request has one Manager
+  * A manager has many maintenance requests
+  * A tenant has many maintenance requests
