@@ -18,7 +18,7 @@ The solution is to validate your data!
 
 #### [Enter Sequelize Validations](https://github.com/chriso/validator.js#validators)
 
-#### Let's add validations to Apartment Lab With Sequelize 
+#### Let's add validations to [Apartment Lab With Sequelize](https://github.com/wdi-sf-september-2014-hw/apartment_lab_with_sequelize/tree/solution)
 
 * Alpha validation on manager firstname 
 
