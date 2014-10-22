@@ -1,0 +1,59 @@
+# Test Driven Development
+
+## Objetives
+
+* Understand the philosophy and the *why* of testing
+* Write an app with model tests, using the tests to drive your work
+
+## Philosophy
+
+### The Big Deal™ - Think about what you'll do, before you do it
+
+* :pencil: Write a test to describe and specify the code you'll write
+* :broken_heart: Have the test fail
+* :green_heart: Write the *minimum* amount of code to pass the test
+* :repeat: Refactor your code
+
+### Side effects
+
+* Maintainable code
+* Confidence in your own code/others' confidence in your code
+* Less "jiggling until it works"
+
+### Examples of projects in the wild that embody this philosophy
+
+* [Express](https://github.com/strongloop/express/blob/master/Contributing.md#prs-and-code-contributions)
+  * [app.use test](https://github.com/strongloop/express/blob/master/test/app.use.js)
+* [Express Cookie-Session](https://github.com/expressjs/cookie-session)
+  * [cookie session test](https://github.com/expressjs/cookie-session/blob/master/test.js)
+* [Sequelize](https://github.com/sequelize/sequelize/blob/master/CONTRIBUTING.md#pull-requests)
+  * [has-one test](https://github.com/sequelize/sequelize/blob/master/test/associations/has-one.test.js)
+
+#### Travis CI and automated builds
+
+[Express Travis Builds](https://travis-ci.org/strongloop/express)
+[Live Builds Running *NOW*](https://travis-ci.org/)
+
+## Let's do this!
+
+### In-class Exercise/Lab/HW: build a todo app with model tests
+
+#### Required functionality:
+* Create a todo list
+  * A todo list should have a title and a description
+  * Titles may be at most 100 characters
+  * The description must be at least 5 characters long and at most 140
+    characters
+
+* Create a todo item for a todo list
+  * A todo item should have a required title
+  * The title must be at least 5 characters long and at most 100
+    characters
+  * You should be able to complete a todo item
+
+* View todo lists by their id
+* View a todo lists' completed items
+
+* Delete a todo list
+  * This should also delete all of its items, if there are any
+* Delete a todo
