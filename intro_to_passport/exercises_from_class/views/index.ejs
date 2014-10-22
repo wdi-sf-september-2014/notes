@@ -1,0 +1,10 @@
+<% if (isAuthenticated) { %>
+	<h1><%= userInfo.first_name %> is logged in!!</h1>
+	<div>
+		<a href="/logout">Logout</a>
+	</div>
+<% } %>
+
+<% if (!isAuthenticated) { %>
+	<h1>This is public</h1>
+<% } %>
