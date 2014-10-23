@@ -115,6 +115,7 @@ Write tests and validations for todolist descriptions between 5 and 140 characte
 
 * Create a todo item for a todo list
   * A todo item should have a required title
+  * A todo item should not be creatable without a todo list specified
   * The title must be at least 5 characters long and at most 100
     characters
   * You should be able to complete a todo item
