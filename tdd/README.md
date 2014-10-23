@@ -34,7 +34,7 @@
 [Express Travis Builds](https://travis-ci.org/strongloop/express)
 [Live Builds Running *NOW*](https://travis-ci.org/)
 
-## Let's do this!
+## [Let's do this!](https://github.com/wdi-sf-september-2014/todo_with_tests)
 
 ### In-class Exercise/Lab/HW: build a todo app with model tests
 
