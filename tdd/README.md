@@ -41,6 +41,22 @@
 #### Required functionality:
 * Create a todo list
   * A todo list should have a title and a description
+
+```
+// In test/models/todo_list_spec.js
+describe('TodoList', function() {
+  describe('attributes', function() {
+    it('should have a title', function() {
+      var list = models.TodoList.build({
+        title: "My List"
+      });
+
+      expect(list.title).to.equal("My List");
+    });
+  });
+});
+```
+
   * Titles may be at most 100 characters
   * The description must be at least 5 characters long and at most 140
     characters
