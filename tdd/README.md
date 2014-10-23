@@ -75,6 +75,44 @@ $ sequelize db:migrate
   * The description must be at least 5 characters long and at most 140
     characters
 
+##### What happens when a sequelize validator fails?
+##### Hint: Think about fulfilled vs rejected promises
+
+If we think about it, in terms of promises, we may use [Chai as Promised](http://chaijs.com/plugins/chai-as-promised)
+
+```
+$ npm install chai-as-promised --save-dev
+```
+
+```
+promise.should.be.rejectedWith(Error);
+```
+
+When a validation fails, a promise is unfulfilled, and the result of the
+unfulfilled promise is a `ValidationError`.
+[ValidationError](https://github.com/sequelize/sequelize/blob/master/lib/errors.js#L40)
+
+```
+// In test/models/todo_list_spec.js
+describe('validations', function() {
+  var ValidationError = require('sequelize').ValidationError;
+
+  it('should be invalid for titles > 100 characters', function(done) {
+    expect(
+      models.TodoList.create({
+        title: "asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdf"
+      })
+    ).to.be.rejectedWith(ValidationError).notify(done);
+  });
+});
+```
+
+##### Your turn
+
+Write tests and validations for todolist descriptions between 5 and 140 characters
+
+##### Let's build some of this UI - tests passing are only so exciting
+
 * Create a todo item for a todo list
   * A todo item should have a required title
   * The title must be at least 5 characters long and at most 100
