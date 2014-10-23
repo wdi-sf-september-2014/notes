@@ -57,6 +57,20 @@ describe('TodoList', function() {
 });
 ```
 
+##### What might be the next step?
+
+How about:
+
+```
+$ sequelize model:create --name TodoList --attributes title:string,description:string
+```
+
+immediately followed by:
+
+```
+$ sequelize db:migrate
+```
+
   * Titles may be at most 100 characters
   * The description must be at least 5 characters long and at most 140
     characters
