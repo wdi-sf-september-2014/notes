@@ -30,8 +30,9 @@ having you log in every time.
 3. [Provision the database](https://devcenter.heroku.com/articles/getting-started-with-nodejs#provision-a-database)
 4. Update your `config/config.json`, by following [these instructions](http://sequelizejs.com/articles/heroku#migrations).
 5. [Deploy the app](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
-6. [View the logs](https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs)
-7. Going forward, run the app locally with:
+6. Migrate the db on heroku by running `heroku run sequelize db:migrate`
+7. [View the logs](https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs)
+8. Going forward, run the app locally with:
 
 ```
 $ foreman start -f Procfile_dev
