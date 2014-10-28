@@ -28,18 +28,10 @@ having you log in every time.
 1. [Set up a Procfile](https://devcenter.heroku.com/articles/getting-started-with-nodejs#define-a-procfile)
 2. Set up a `Procfile_dev` that contains `web: nodemon app.js` instead of `web: node app.js`
 3. [Provision the database](https://devcenter.heroku.com/articles/getting-started-with-nodejs#provision-a-database)
-4. Update your `config/config.json` with:
-
-```
-"production": {
-  "use_env_variable": "DATABASE_URL"
-}
-```
-
-5. Update your Sequelize `config/config.json` file and specify the URL of your provisioned db under `production`.
-6. [Deploy the app](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
-7. [View the logs](https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs)
-8. Going forward, run the app locally with:
+4. Update your `config/config.json`, by following [these instructions](http://sequelizejs.com/articles/heroku#migrations).
+5. [Deploy the app](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
+6. [View the logs](https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs)
+7. Going forward, run the app locally with:
 
 ```
 $ foreman start -f Procfile_dev
