@@ -30,6 +30,9 @@ having you log in every time.
 3. [Provision the database](https://devcenter.heroku.com/articles/getting-started-with-nodejs#provision-a-database)
 4. Update your `config/config.json`, by following [these instructions](http://sequelizejs.com/articles/heroku#migrations).
 5. [Deploy the app](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
+6. Scale to 1 web process by running `heroku ps:scale web=1`
+7. Run `heroku config:set NODE_ENV=production` to let sequelize know
+   which configuration to use for connecting to your db on heroku.
 6. Migrate the db on heroku by running `heroku run sequelize db:migrate`
 7. [View the logs](https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs)
 8. Going forward, run the app locally with:
