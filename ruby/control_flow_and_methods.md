@@ -66,7 +66,7 @@ Let's take a look at the [`case`](http://ruby-doc.org/core-2.1.4/doc/syntax/cont
 
 ### Exercise #2: Back to control flow
 
-In groups of 2, read through control flow statements, and after you understand a control flow statement, put your group's name and the name of the statement on the whiteboard, to discuss your findings with the class. First come, first served. After you have your name on the board, read about the next control flow statement. If you want, join a group already talking about it, by adding your name to that topic. Your group will teach, based on what you discover, and I will moderate.
+In groups of 2, read through [control flow expressions](http://ruby-doc.org/core-2.1.4/doc/syntax/control_expressions_rdoc.html), and after you understand a control flow statement, put your group's name and the name of the statement on the whiteboard, to discuss your findings with the class. First come, first served. After you have your name on the board, read about the next control flow statement. If you want, join a group already talking about it, by adding your name to that topic. Your group will teach, based on what you discover, and I will moderate.
 
 ## Playing with methods
 
