@@ -82,3 +82,6 @@ end
 Car.new("Red", "Honda", "Civic").paint("Blue")
 ```
 
+##Practicing Ruby
+
+Let's practice Ruby syntax by going through the [Try Ruby](http://tryruby.org) tutorial.
