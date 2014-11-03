@@ -24,6 +24,8 @@ puts 35.even?
 Object.class #Class
 ```
 
+- Something like this `message = "Hello World"` is essentially the equivalent of `message = String.new("Hello World")`.
+
 - There is little conversion of type:
 
 ####JS
@@ -47,7 +49,6 @@ puts "Hello " + 4 + 2 #no implicit conversion of Fixnum into String
 
 ```
 Math.sqrt(9) #3.0
-["Arun", "Sood", 27].include?("Arun") # True
 ```
 
 ####Objects
@@ -71,6 +72,10 @@ class Car
 	def paint(new_color)
 		@color = new_color
 		puts @color
+	end
+	
+	def describe_car
+		puts "We are driving in the #{@color} #{@make} #{@model}"
 	end
 end
 

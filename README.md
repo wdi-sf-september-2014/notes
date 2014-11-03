@@ -89,7 +89,7 @@ This repository is for the September 2014 WDI cohort.
 
 ####Day 1 (AS/AN): Introduction to Ruby
 
-#####Morning (AS):
+#####[Morning (AS)](ruby/intro_to_ruby/):
 - Everything is an object
 - Object literals
 - Try Ruby
