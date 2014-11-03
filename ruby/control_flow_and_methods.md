@@ -33,6 +33,14 @@ puts "Indeed!" if yes
 
 The above is called a statement modifier. It's beautiful.
 
+Let's make our ruby repl more beautiful, because writing ruby should be more
+beautiful than just plain text:
+
+```
+$ gem install pry
+$ gem install pry-doc
+```
+
 What about `if-else if-else` you say? Easy!
 
 ```ruby
