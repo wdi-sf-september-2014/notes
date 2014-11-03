@@ -87,15 +87,15 @@ This repository is for the September 2014 WDI cohort.
 
 ##Week 6
 
-####Day 1 (AS): Introduction to Ruby
+####Day 1 (AS/AN): Introduction to Ruby
 
-#####Morning:
+#####Morning (AS):
 - Everything is an object
 - Object literals
 - Try Ruby
 - IRB
 
-#####[Afternoon](ruby/control_flow_and_methods.md):
+#####[Afternoon (AN)](ruby/control_flow_and_methods.md):
 - Control Flow
 - Methods
 
