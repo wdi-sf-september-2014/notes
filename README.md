@@ -95,7 +95,7 @@ This repository is for the September 2014 WDI cohort.
 - Try Ruby
 - IRB
 
-#####Afternoon:
+#####[Afternoon](ruby/control_flow_and_methods.md):
 - Control Flow
 - Methods
 
