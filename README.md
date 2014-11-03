@@ -84,3 +84,29 @@ This repository is for the September 2014 WDI cohort.
 ##Week 5
 
 ####Day 2 (AN): [Heroku](heroku/)
+
+##Week 6
+
+####Day 1 (AS): Introduction to Ruby
+
+#####Morning:
+- Everything is an object
+- Object literals
+- Try Ruby
+- IRB
+
+#####Afternoon:
+- Control Flow
+- Methods
+
+####Day 2 (AN): More Ruby and File IO
+
+#####Morning:
+- Arrays
+- Iterators
+- Ranges
+
+#####Afternoon
+- Hashes
+- File IO
+- Lab: Build your own iterators
