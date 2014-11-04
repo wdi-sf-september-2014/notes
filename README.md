@@ -108,7 +108,7 @@ This repository is for the September 2014 WDI cohort.
 
 #####Afternoon (AN):
 - Hashes
-- File IO
+- Hash iterators
 - Lab: Build your own iterators
 
 ####Day 3: Classes and Rspec
