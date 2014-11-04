@@ -152,6 +152,15 @@ my_array = [1, 2, 3, 4]
 my_array.pop # => [1, 2, 3]
 ```
 
+####.sort
+- `.sort` will compare items in the array and sort them using the <=> operator.
+
+```
+my_array = [1, 4, 2, 3]
+
+my_array.sort # => [1, 2, 3, 4]
+```
+
 ##In-Class Lab #2
 - Open the RubyMonk [array tutorial](https://rubymonk.com/learning/books/1-ruby-primer).
 - Try these problems:
