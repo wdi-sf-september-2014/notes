@@ -106,7 +106,7 @@ This repository is for the September 2014 WDI cohort.
 - Iterators
 - Ranges
 
-#####Afternoon (AN):
+#####[Afternoon (AN)](ruby/hashes_and_iterators.md):
 - Hashes
 - Hash iterators
 - Lab: Build your own iterators
