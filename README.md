@@ -99,7 +99,7 @@ This repository is for the September 2014 WDI cohort.
 - Control Flow
 - Methods
 
-####Day 2: More Ruby and File IO
+####Day 2: More Ruby - Deep dive into arrays and hashes
 
 #####Morning (AS):
 - Arrays
