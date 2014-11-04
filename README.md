@@ -101,12 +101,12 @@ This repository is for the September 2014 WDI cohort.
 
 ####Day 2 (AN): More Ruby and File IO
 
-#####Morning:
+#####Morning (AS):
 - Arrays
 - Iterators
 - Ranges
 
-#####Afternoon
+#####Afternoon (AN):
 - Hashes
 - File IO
 - Lab: Build your own iterators
