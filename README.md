@@ -101,7 +101,7 @@ This repository is for the September 2014 WDI cohort.
 
 ####Day 2: More Ruby - Deep dive into arrays and hashes
 
-#####Morning (AS):
+#####[Morning (AS)](ruby/arrays_iterators_ranges/):
 - Arrays
 - Iterators
 - Ranges
