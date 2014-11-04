@@ -22,6 +22,22 @@ anotherRange = (1...10) # not including 10
 lettersWorkToo = ('a'..'z')
 ```
 
+Ranges are often seen in conjunction with the FOR loop:
+
+```
+for i in 1..20
+	puts i
+end
+```
+
+You can also do this for arrays like we did with JavaScript:
+
+```
+for i in 0...array.length
+	puts array[i]
+end
+```
+
 ##Iterators (Enumerators)
 
 ####.each
@@ -88,4 +104,61 @@ end
 
 ##In-Class Lab #1
 - Go through the arrays section of RubyMonk [here](https://rubymonk.com/learning/books/1-ruby-primer/chapters/1-arrays/).
+
+##Array Methods
+
+####.shift
+- `.shift` will remove the first element of the array and return it.
+
+```
+my_array = [1, 2, 3, 4]
+
+my_array.shift # => 1
+```
+
+####.unshift
+- `.unshift` will prepend objects to the front of the array, moving other elements upward.
+
+```
+my_array = ["a", "b", "c"]
+
+my_array.unshift("insert") # => ["insert", "a", "b", "c"]
+```
+
+####.take
+- `.take` will return the first `n` elements of an array.
+
+```
+my_array = [1, 2, 3, 4]
+
+my_array.take(3) # => [1, 2, 3]
+```
+
+####.push
+- `.push` will append an object to the end of an array.
+
+```
+my_array = [1, 2, 3, 4]
+
+my_array.push(5) # => [1, 2, 3, 4, 5]
+```
+
+####.pop
+- `.pop` will remove the last element of the array and return it.
+
+```
+my_array = [1, 2, 3, 4]
+
+my_array.pop # => [1, 2, 3]
+```
+
+##In-Class Lab #2
+- Open the RubyMonk [array tutorial](https://rubymonk.com/learning/books/1-ruby-primer).
+- Try these problems:
+	- Find the length of strings in an array
+	- Find the frequency of a string in a sentence
+	- Select random elements from an array
+	- Find non-duplicate values in an array
+	- Check if all elements in an array are Fixnum
+- Bonus: Try the "sort the words in a given sentence" challenge.
 
