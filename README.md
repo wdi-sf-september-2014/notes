@@ -111,13 +111,13 @@ This repository is for the September 2014 WDI cohort.
 - Hash iterators
 - Lab: Build your own iterators
 
-####Day 3: Classes and Rspec
+####Day 3: [Classes and Rspec](ruby/class_hierarchy_with_rspec.md)
 
-#####Morning (AN):
-- Intro to Rspec
+#####Morning:
+- Intro to Rspec and building a `Person` object with TDD
 
-#####Afternoon (AS):
-- TDD lab with Rspec
+#####Afternoon:
+- TDD lab with Rspec; building a class hierarchy
 
 ####Day 4: Intro to Rails
 
