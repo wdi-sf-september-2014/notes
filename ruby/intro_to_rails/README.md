@@ -69,4 +69,41 @@ Let's do it!
 
 ##Book Manager
 - We will create a simple CRUD app practicing Rails with models.
+- Before we implement the frontend UI we will perform the CRUD operations using Rails Console.
 - Download the frontend files [here](book_library_html/).
+
+##Asset Pipeline
+- Rails wraps in a software called Sprockets that allows you to include multiple static assets in your application.
+- Sprockets also handles the SASS and CoffeeScript interpretation as well as the uglifier.
+- You can read about Sprockets [here](https://github.com/rails/sprockets-rails).
+
+##Using the Asset Pipeline
+- For the basic implementation, all that is needed is for you to place any stylesheets, javascripts, and images in their appropriate folders under app/assets.
+- For stylesheets, you can find the asset require code in app/assets/stylesheets/application.css:
+
+```
+*= require_tree .
+*= require_self
+```
+
+- For javascripts, you can find the asset require code in app/assets/javascripts/application.js:
+
+```
+//= require turbolinks
+//= require_tree .
+```
+
+- You will also find a folder called `vendor` at the root of your application. This folder is where you should keep any code written by third parties such as jQuery or Bootstrap.
+- To make this work however you will have to alter your application.css and application.js files a bit:
+
+application.css
+
+```
+*= require_tree ../../../vendor/assets/stylesheets/
+```
+
+application.js
+
+```
+//= require_tree ../../../vendor/assets/javascripts/
+```
