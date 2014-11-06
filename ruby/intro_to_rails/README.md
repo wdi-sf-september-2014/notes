@@ -57,6 +57,54 @@ In rails there is a specific convention that separates each of these key concern
 ####Routes
 - Like Node, routes take HTTP requests from a specific URL and hand them off to a specific controller and a specific method inside that controller.
 
+##Rails Command Line Interface
+- Allows you to create new projects.
+- You can easily generate new components of your project.
+- Easily destroy aspects of your application that you no longer need.
+- Three tools we will see a lot:
+
+Rails New:
+
+```
+rails new HelloWorld
+```
+
+Rails Generate:
+
+```
+rails generate controller Hello
+```
+
+Rails Destroy:
+
+```
+rails destroy controller Hello
+```
+
+Rails Console:
+
+```
+rails console
+```
+
+Rails Server:
+
+```
+rails server -p 3000
+```
+
+Rails DB:
+
+```
+rails db
+```
+
+RAKE:
+
+```
+rake db:migrate
+```
+
 ##Hello World in Rails
 
 What it's gonna take:
