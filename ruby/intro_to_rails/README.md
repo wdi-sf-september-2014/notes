@@ -66,3 +66,7 @@ What it's gonna take:
 - Running server
 
 Let's do it!
+
+##Book Manager
+- We will create a simple CRUD app practicing Rails with models.
+- Download the frontend files [here](book_library_html/).

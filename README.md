@@ -119,14 +119,14 @@ This repository is for the September 2014 WDI cohort.
 #####Afternoon:
 - TDD lab with Rspec; building a class hierarchy
 
-####Day 4: Intro to Rails
+####Day 4: [Intro to Rails](ruby/intro_to_rails/)
 
-#####Morning (AS):
+#####Morning:
 - Folder structure
 - MVC pattern
 - Sample app
 
-#####Afternoon (AS):
+#####Afternoon:
 - Scaffold generator
 - Models
 - Asset pipeline
