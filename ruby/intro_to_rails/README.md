@@ -56,3 +56,13 @@ In rails there is a specific convention that separates each of these key concern
 
 ####Routes
 - Like Node, routes take HTTP requests from a specific URL and hand them off to a specific controller and a specific method inside that controller.
+
+##Hello World in Rails
+
+What it's gonna take:
+- A controller with a method
+- A route
+- A view
+- Running server
+
+Let's do it!
