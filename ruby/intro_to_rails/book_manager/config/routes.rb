@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
+
   root "book#index"
 
-  post "/" => "book#new"
+  post "/" => "book#create"
 
-  post "/edit/:id" => "book#edit"
+  get "edit/:id" => "book#show"
 
-  get "edit/:id" => "book#edit_form"
+  post "edit/:id" => "book#edit"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

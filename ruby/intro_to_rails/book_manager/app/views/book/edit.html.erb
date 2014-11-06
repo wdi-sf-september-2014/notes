@@ -19,6 +19,10 @@
 			margin-top:20px;
 		}
 
+		.margin-right-10 {
+			margin-right:10px;
+		}
+
 		.small-container {
 			width:700px;
 			margin-left:auto;
@@ -37,7 +41,7 @@
 	<h1>Book Manager</h1>
 
 	<div>
-		<a href="/" class="btn btn-primary">Back</a>
+		<a href="#" class="btn btn-primary">Back</a>
 	</div>
 </div>
 
@@ -69,7 +73,7 @@
 			<input name="pages" type="text" class="form-control" value="<%= @book.pages %>" />
 		</div>
 		<div class="margin-top-20 txt-right">
-			<a href="/" class="btn btn-default">Cancel</a>
+			<button type="submit" name="delete_button" class="btn btn-danger margin-right-10">Delete</button>
 			<button type="submit" class="btn btn-primary">Edit Book</button>
 		</div>
 	</div>
