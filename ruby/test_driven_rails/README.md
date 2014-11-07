@@ -126,3 +126,17 @@ $ guard init
 ```
 
 Create a file called `spec/support/factories.rb`
+
+### Keep using git!
+
+Get into this habit, now
+
+```
+$ git add . && git commit
+```
+
+### For keeping your test db in sync:
+
+```
+$ rake db:test:prepare
+```
