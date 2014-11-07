@@ -74,7 +74,7 @@ group :test do
   # make reusable model factories for your tests
   gem 'factory_girl_rails'
   # all sorts of great matchers for rspec
-  gem ‘shoulda-matchers’
+  gem 'shoulda-matchers'
 end
 
 group :development do
