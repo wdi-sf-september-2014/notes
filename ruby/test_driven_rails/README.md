@@ -154,6 +154,8 @@ $ rails generate rspec:feature [feature_name]
 
 #### [More info on feature specs](https://www.relishapp.com/rspec/rspec-rails/v/3-1/docs/feature-specs/feature-spec)
 
+#### [Some in depth docs about feature specs](http://www.rubydoc.info/github/jnicklas/capybara/master#Using_Capybara_with_RSpec)
+
 ### [RSpec-rails docs](https://www.relishapp.com/rspec/rspec-rails/v/3-1/docs/)
 
 ### [For generating bootstrap-related stuff](https://github.com/seyhunak/twitter-bootstrap-rails#generating-layouts-and-views)
