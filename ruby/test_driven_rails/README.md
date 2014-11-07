@@ -55,7 +55,7 @@ In `config/database.yml`:
 # bootstrap
 gem 'twitter-bootstrap-rails'
 # better, cleaner forms
-gem 'simple-form'
+gem 'simple_form'
 
 group :test, :development do
   # rspec for rails
