@@ -101,14 +101,19 @@ $ rake db:create
 
 ### Configuration
 
-Configure rspec
+Install rspec
 ```
 $ rails g rspec:install
 ```
 
-Configure boostrap
+Install boostrap
 ```
 $ rails g bootstrap:install static
+```
+
+Install `simple_form`:
+```
+$ rails generate simple_form:install --bootstrap
 ```
 
 Modify `spec/rails_helper.rb`
