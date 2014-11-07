@@ -145,3 +145,16 @@ $ git add . && git commit
 ```
 $ rake db:test:prepare
 ```
+
+### For generating request specs:
+
+```
+$ rails generate rspec:integration [thing_to_test]
+```
+
+#### [More info on request specs](https://github.com/rspec/rspec-rails#request-specs)
+#### See also [RSpec Rails docs on request specs](https://www.relishapp.com/rspec/rspec-rails/v/3-1/docs/request-specs/request-spec)
+
+### [RSpec-rails docs](https://www.relishapp.com/rspec/rspec-rails/v/3-1/docs/)
+
+### [For generating bootstrap-related stuff](https://github.com/seyhunak/twitter-bootstrap-rails#generating-layouts-and-views)
