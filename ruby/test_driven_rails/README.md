@@ -29,7 +29,7 @@ We're working with Ruby on Rails, so I figured... choo-choo, BART schedule listi
 
 ### Initialize a rails app, with postgres, and without a test framework
 ```
-$ rails new bart_schedules -T --database=postgresql
+$ rails new bart_schedules -TBd =postgresql
 ```
 
 ```
