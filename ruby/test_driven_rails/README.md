@@ -60,6 +60,8 @@ gem 'simple_form'
 group :test, :development do
   # rspec for rails
   gem 'rspec-rails'
+  # make reusable model factories for your tests
+  gem 'factory_girl_rails'
   # fill stuff in in forms and stuff
   gem 'capybara'
   # open a page after a test
@@ -71,8 +73,6 @@ group :test, :development do
 end
 
 group :test do
-  # make reusable model factories for your tests
-  gem 'factory_girl_rails'
   # all sorts of great matchers for rspec
   gem 'shoulda-matchers'
 end
