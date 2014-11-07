@@ -119,7 +119,7 @@ This repository is for the September 2014 WDI cohort.
 #####Afternoon:
 - TDD lab with Rspec; building a class hierarchy
 
-####Day 4: [Intro to Rails](ruby/intro_to_rails/)
+####Day 4: [Intro to Rails](ruby/intro_to_rails/) (AS)
 
 #####Morning:
 - Folder structure
@@ -131,8 +131,14 @@ This repository is for the September 2014 WDI cohort.
 - Models
 - Asset pipeline
 
-####Day 5: TDD with Rails
+####Day 5: [TDD with Rails](ruby/test_driven_rails/) (AN)
 
-#####Morning (AN):
-- How to test your requests
-- Test your models
+#####Morning:
+- Building an app with tests, outside in
+	- Request specs (routing)
+	- Controller specs (actions)
+	- Model specs (business logic)
+
+#####Afternoon:
+- Complete anything that we had not finished in the morning
+- Begin building your own app from scratch
