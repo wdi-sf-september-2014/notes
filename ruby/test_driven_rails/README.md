@@ -111,7 +111,7 @@ Configure boostrap
 $ rails g bootstrap:install static
 ```
 
-Modify `spec/spec_helper.rb`
+Modify `spec/rails_helper.rb`
 ```
 require 'capybara/rails'
 require 'capybara/rspec'
