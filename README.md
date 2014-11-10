@@ -142,3 +142,30 @@ This repository is for the September 2014 WDI cohort.
 #####Afternoon:
 - Complete anything that we had not finished in the morning
 - Begin building your own app from scratch
+
+##Week 7
+
+####Day 1 (Tue) AS: 
+
+#####Morning: Active Record (Validations + Associations)
+#####Afternoon: Auth (has_secure_password) + Session
+
+####Day 2 (Wed) AN:
+
+#####Morning: Forms
+#####Afternoon: Nested resources 
+
+####Day 3 (Thurs):
+
+#####Morning AS: JSON API's + AJAX			
+#####Afternoon AN: Token-based authentication/csrf
+
+####Day 4 (Fri):
+
+#####Morning: Github Visit..
+#####Afternoon AN: Build a rails app with TDD again
+
+####Day 5 (Mon):
+
+#####Morning AS: AJAX templating
+#####Afternoon AN: Github workflow
