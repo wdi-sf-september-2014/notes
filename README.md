@@ -145,12 +145,12 @@ This repository is for the September 2014 WDI cohort.
 
 ##Week 7
 
-####Day 1 [ActiveRecord and Authentication](https://github.com/wdi-sf-september-2014/notes/tree/master/ruby/more_activerecord_and_authentication) AS: 
+####Day 1 [ActiveRecord and Authentication](ruby/more_activerecord_and_authentication/) AS: 
 
 #####Morning: Active Record (Validations + Associations)
 #####Afternoon: Auth (has_secure_password) + Session
 
-####Day 2 (Wed) AN:
+####Day 2 (Wed) [Forms, Basic Routing and Resources-based Routing](ruby/forms_and_routing/) AN:
 
 #####Morning: Forms
 #####Afternoon: Nested resources 
