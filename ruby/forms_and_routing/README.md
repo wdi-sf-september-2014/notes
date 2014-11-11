@@ -22,7 +22,6 @@
 * [Katrina Owen: Therapeutic Refactoring](http://confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring)
 
 ## Objectives
-
 * Understand more rails TDD with Rspec
 * Implement some more forms with [simple_form](https://github.com/plataformatec/simple_form)
 * Understand routing
@@ -32,3 +31,9 @@
 * Add Departures to [bart schedules app](https://github.com/wdi-sf-september-2014/bart_schedules) - test driven of course
 	* Note: it's a 1-M relationship (Station has many Departures)
 * Implement the rest of the requirements of the app
+
+## Homework
+
+Thinking about the relationship between Stations and Departures differently
+
+* Implement an M-M relationship between Stations and Departures
