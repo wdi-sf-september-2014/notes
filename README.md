@@ -145,7 +145,7 @@ This repository is for the September 2014 WDI cohort.
 
 ##Week 7
 
-####Day 1 (Tue) AS: 
+####Day 1 [ActiveRecord and Authentication](https://github.com/wdi-sf-september-2014/notes/tree/master/ruby/more_activerecord_and_authentication) AS: 
 
 #####Morning: Active Record (Validations + Associations)
 #####Afternoon: Auth (has_secure_password) + Session
