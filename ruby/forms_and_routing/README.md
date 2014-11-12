@@ -37,3 +37,8 @@
 Thinking about the relationship between Stations and Departures differently
 
 * Implement an M-M relationship between Stations and Departures
+
+Bonuses
+
+* Implement a station filter to only display departures for a specific station
+* Implement the functionality to be able to navigate the stations via next and previous buttons. The way you do this from a ui perspective is up to you.
