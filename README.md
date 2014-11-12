@@ -155,15 +155,15 @@ This repository is for the September 2014 WDI cohort.
 #####Morning: Forms
 #####Afternoon: Nested resources 
 
-####Day 3 (Thurs):
+####Day 3 (Thurs) JSON Apis and Token Authentication AS:
 
-#####Morning AS: JSON API's + AJAX			
-#####Afternoon AN: Token-based authentication/csrf
+#####Morning: JSON API's + AJAX			
+#####Afternoon: Token-based authentication/csrf
 
-####Day 4 (Fri):
+####Day 4 (Fri) Rails App with TDD AN:
 
 #####Morning: Github Visit..
-#####Afternoon AN: Build a rails app with TDD again
+#####Afternoon: Build a rails app with TDD again
 
 ####Day 5 (Mon):
 
