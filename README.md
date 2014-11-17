@@ -167,5 +167,5 @@ This repository is for the September 2014 WDI cohort.
 
 ####Day 5 (Mon):
 
-#####Morning AS: AJAX templating
+#####Morning AS: [AJAX templating](ruby/ajax_and_handlebars/)
 #####Afternoon AN: Github workflow

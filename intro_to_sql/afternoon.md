@@ -54,6 +54,10 @@ At this point we should have a database with no tables in it.  So now we need to
   CREATE DATABASE testdb;
 ```
 
+```
+jhfjdkhdfhdsjk
+```
+
 * Connect to the new database:
 
 ```
