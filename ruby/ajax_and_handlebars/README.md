@@ -39,12 +39,14 @@ $.ajax({
 - You can write any normal HTML here, but you can also write Handlebars-specific code:
 
 ```
-<div class="entry">
-	<h1>{{title}}</h1>
-	<div class="body">
-		{{body}}
+<script id="my-template" type="text/x-handlebars-template">
+	<div class="entry">
+		<h1>{{title}}</h1>
+		<div class="body">
+			{{body}}
+		</div>
 	</div>
-</div>
+</script>
 ```
 
 - The curly code is essentially keys to a JSON object.
@@ -61,10 +63,12 @@ $.ajax({
 </div>
 ```
 
+- This example assumes that `comments` is an array of JSON objects.
+
 - Before a template is used however, it must be first "compiled":
 
 ```
-var source   = $("#entry-template").html();
+var source   = $("#my-template").html();
 var template = Handlebars.compile(source);
 ```
 
