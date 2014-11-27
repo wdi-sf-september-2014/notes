@@ -169,3 +169,17 @@ This repository is for the September 2014 WDI cohort.
 
 #####Morning AS: [AJAX templating](ruby/ajax_and_handlebars/)
 #####Afternoon AN: Github workflow
+
+## Week 8 - Project Week
+
+## Week 9
+
+### Day 1 (AN) - Building a RESTful API
+
+### Day 2 (AS) - Building a single page app
+
+### Day 3 (AN) - Securing the RESTful API
+
+### Day 4 (AS) - Frontend application state: the router
+
+### Day 5 - Weekend Lab
