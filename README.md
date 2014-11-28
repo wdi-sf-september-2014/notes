@@ -174,7 +174,7 @@ This repository is for the September 2014 WDI cohort.
 
 ## Week 9
 
-### Day 1 (AN) - Building a RESTful API
+### Day 1 (AN) - [Building a RESTful API](apis_and_single_page_apps/restful_apis.md)
 
 ### Day 2 (AS) - Building a single page app
 
