@@ -51,3 +51,36 @@
 ### Take a 5 minute break
 ### In pairs, watch for 10 minutes [Surviving APIs with Rails Level 5](http://railsapis.codeschool.com/levels/5/challenges/1)
 ### Complete the challenge in 20 minutes
+
+## Homework
+
+Build a JSON RESTful API for a products inventory application. 
+
+### Requirements
+* When returning any **Product**, the API should return the number of items remaining in the inventory.
+
+* The number of remaining items in the inventory for a specific **Product** should be changeable via its PATCH endpoint.
+
+* When returning a **Purchase**, the API should also return that **Purchase** object's related **Product** objects.
+
+* **Purchase** objects may not be created/edited/or deleted via the API.
+
+Please be creative and think about what other attributes might be good on the **Product** and **Purchase** model.
+
+### Bonus (encouraged if you finish the above)
+
+Add a **Buyer** endpoint. A **Purchase** should have one **Buyer**. If you create this endpoint, any returned **Purchase** should also list its associated buyer.
+
+### Required Endpoints:
+```
+       Prefix Verb   URI Pattern                   Controller#Action
+    purchases GET    /purchases(.:format)          purchases#index
+     purchase GET    /purchases/:id(.:format)      purchases#show
+     products GET    /products(.:format)           products#index
+              POST   /products(.:format)           products#create
+      product GET    /products/:id(.:format)       products#show
+              PATCH  /products/:id(.:format)       products#update
+              PUT    /products/:id(.:format)       products#update
+              DELETE /products/:id(.:format)       products#destroy   
+```
+
