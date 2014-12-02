@@ -64,6 +64,17 @@ app.js
 //Place finished HTML into the container
 ```
 
+##CSRF Protection
+- Your endpoints will automatically be protected from forgery with Rails' CSRF protection.
+- You can disable this only for AJAX requests with this code:
+
+application_controller.rb
+
+```
+protect_from_forgery with: :exception,
+if: Proc.new { |c| c.request.format =~ %r{application/json} }
+```
+
 ##Further Thinking
 - What are some of the downsides of writing applications like this?
 - What is missing functionality-wise?
