@@ -178,7 +178,7 @@ This repository is for the September 2014 WDI cohort.
 
 ### Day 2 (AS) - [Building a single page app](ruby/intro_to_single_page_applications)
 
-### Day 3 (AN) - Securing the RESTful API
+### Day 3 (AN) - [Securing the RESTful API](apis_and_single_page_apps/securing_the_restful_api.md)
 
 ### Day 4 (AS) - Frontend application state: the router
 
