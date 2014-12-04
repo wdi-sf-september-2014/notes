@@ -182,4 +182,4 @@ This repository is for the September 2014 WDI cohort.
 
 ### Day 4 (AS) - [Frontend application state: the router](ruby/front_end_application_routing/)
 
-### Day 5 - Weekend Lab
+### Day 5 - [Weekend Lab](https://github.com/wdi-sf-september-2014/api_and_spa_with_backbone_router_weekend_lab)
