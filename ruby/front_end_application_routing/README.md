@@ -45,3 +45,7 @@ Backbone.history.start();
 ##In-Class Lab
 - Use the Backbone router to add routing to your products SPA.
 - A great resource to read about Backbone routing can be found [here](http://backbonetutorials.com/what-is-a-router/).
+
+##Homework
+- Use the wine API located here: http://daretodiscover.net/wine to build a SPA with routing.
+- App must use Backbone router to change state.
