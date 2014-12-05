@@ -172,7 +172,7 @@ This repository is for the September 2014 WDI cohort.
 
 ## Week 8 - Project Week
 
-## Week 9
+## Week 10
 
 ### Day 1 (AN) - [Building a RESTful API](apis_and_single_page_apps/restful_apis.md)
 
@@ -183,3 +183,21 @@ This repository is for the September 2014 WDI cohort.
 ### Day 4 (AS) - [Frontend application state: the router](ruby/front_end_application_routing/)
 
 ### Day 5 - [Weekend Lab](https://github.com/wdi-sf-september-2014/api_and_spa_with_backbone_router_weekend_lab)
+
+## Week 11
+
+### Day 1
+#### Final project introduction
+#### Data structures and algorithms: singly linked lists 
+#### Backbone: overview, views, models, collections (GET requests)
+### Day 2
+#### Data structures and algorithms: binary trees
+#### Backbone: Deeper dive into backbone (view-model event binding, POST/PUT/DELETE requests)
+### Day 3
+#### Data structures and algorithms: merge sort
+#### Backbone: Event bus, two-way binding
+### Day 4
+#### Data structures and algorithms: binary search
+#### Backbone: Build a SPA with Backbone
+### Day 5
+#### Begin working on the final project
