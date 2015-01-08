@@ -13,13 +13,13 @@
 
 <div class="container margin-top-20" style="max-width:935px;">
     <div class="progress">
-        <div class="progress-bar" style="width:0%;"></div>
+        <div id="bar" class="progress-bar" style="width:0%;"></div>
     </div>
 </div>
 
 <div class="container modbox form-wrapper">
 	<form id="my-form">
-        <div class="large-title">
+        <div class="large-title"> <!-- title at the top -->
             My Form
         </div>
         <div class="row" style="margin-top:4em;">
@@ -27,11 +27,14 @@
                 <div>
                     <strong>Personal Information</strong>
                 </div>
+                <!-- NAME ENTRY -->
                 <div class="margin-top-10">
-                    <input type="text" class="form-control" placeholder="Your Full Name" />
+                    <input type="text" class="form-control" placeholder="Your Full Name" id="name"/> 
+
                 </div>
+                <!-- ABOUT SECTION -->
                 <div class="margin-top-10">
-                    <textarea class="form-control" placeholder="A little bit about yourself"></textarea>
+                    <textarea class="form-control" placeholder="A little bit about yourself" id="about" maxlength="140"></textarea>
                 </div>
             </div>
             <div class="col-sm-5">
@@ -39,10 +42,11 @@
                     <strong>Your Name</strong>
                 </div>
                 <div class="modbox card-wrapper margin-top-10">
+                <!-- YOUR NAME SECTION -->
                     <div class="txt-center">
                         <strong>Hello! My Name Is</strong>
                     </div>
-                    <div class="txt-center cool-title">
+                    <div class="txt-center cool-title" id="namet">
                         Jonny Doe
                     </div>
                 </div>
@@ -51,24 +55,26 @@
         <div class="margin-top-20">
             <strong>Pick a username</strong>
         </div>
+        <!-- USERNAME -->
         <div class="margin-top-10">
-            <input type="text" class="form-control" placeholder="Username" />
+            <input id="uname" type="text" class="form-control" placeholder="Username" />
         </div>
         <div class="margin-top-20">
             <strong>Pick a password</strong>
         </div>
+        <!-- PASSWORD -->
         <div class="margin-top-10">
-            <input type="password" class="form-control" placeholder="Password" />
+            <input type="password" class="form-control" placeholder="Password" id="pwd" />
         </div>
         <div class="margin-top-20 txt-center">
-        	<a href="#" class="btn btn-primary">Submit Me!</a>
+        	<a href="#" class="btn btn-primary" id="submit">Submit Me!</a>
         </div>
     </form>
 </div>
 
 <script type="text/javascript" src="libraries/jquery-2.1.0/jquery-2.1.0.js"></script>
 <script type="text/javascript" src="libraries/bootstrap-3.1.0/js/bootstrap.min.js"></script>
-<script type="js/app.js"></script>
+<script src="js/app.js" type="text/javascript"></script>
 
 </body>
 </html>
